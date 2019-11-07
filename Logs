@@ -1,0 +1,1649 @@
+00:08:51	* registerDevice:L1621 not found sub device id.
+00:08:51	ScePsP[TID:0x188a0]: sceMbusEvent has been received. (eventId=1 ADD, deviceId=0x5030d)
+00:08:51	ScePsP[TID:0x188a0]: Open Pad [0x000000000005030d, 0, 0]: ret=0x03090301
+00:08:51	ScePsP[TID:0x188a0]: ConnectedDeviceStatus: count=2
+00:08:51	  [c][DeviceId          ][UserId    ][Model     ]
+00:08:51	  [o][0x000000000005030d][0xffffffff][DUALSHOCK4]
+00:08:51	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:08:51	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:08:51	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:08:51	#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_ADDED [DeviceId:0x5030d][type:1][subType:2]
+00:08:51	D/125878 X
+00:08:51	#LOGIN MGR# SetDisableVibration( 0x000000000005030d, 1 )
+00:08:51	#LOGIN MGR# sceSystemStateMgrSendCecOneTouchPlayCommand : 0(0x00000000)
+00:08:51	#LOGIN MGR# isIduMode = 0
+00:08:51	#LOGIN MGR# getControllerNum() : 1
+00:08:51	#LOGIN MGR# [RunBusTransitionNewDevice] ret : -2135556047 / deviceUniqueId : 0x400000000005030d
+00:08:51	DeviceManager::DeviceAutoAssignForDebug()
+00:08:51	[AutoAsign] DeviceId    : 0x5030d
+00:08:51	[AutoAsign] Type        : 1
+00:08:51	[AutoAsign] Subtype     : 2
+00:08:51	[AutoAsign] DeviceType2 : 0x00000000
+00:08:51	#LOGIN MGR# [Assign] DeviceId:0x000000000005030d / UserId:0x13e30997
+00:08:51	#LOGIN MGR# [Controller::onHoldDevice] userId = 0x13e30997 / holdAudioOutDeivice : 0
+00:08:51	#LOGIN MGR# [AudioDeviceStateChange] updState : 0 / functionType : 1 / scrachData : 128
+00:08:51	#LOGIN MGR# [AudioDeviceStateChange] function : 0 / isEnabled : 0 / realState : 0
+00:08:51	#LOGIN MGR# [AudioDeviceStateChange] updState : 0 / functionType : 2 / scrachData : 64
+00:08:51	#LOGIN MGR# [AudioDeviceStateChange] function : 0 / isEnabled : 175 / realState : -256921681
+00:08:51	@ connectDeviceByFunction:L1258
+00:08:51	@ checkAudioOutHandleStatus:L2487
+00:08:51	#LOGIN MGR# sceMbusBindDeviceWithUserId( 0x000000000005030d, 0x13e30997 ) : 0(0x00000000)
+00:08:51	#LOGIN MGR# SetDisableVibration( 0x000000000005030d, 0 )
+00:08:51	#LOGIN MGR# EnablePadKeyRemapping start( 1, 0x5030d, 0x13e30997, 1 )
+00:08:51	#LOGIN MGR# IsKeyRemapEnable start( 0x13e30997 )
+00:08:51	#LOGIN MGR# IsKeyRemapEnable end( 0x13e30997 ) -> 0
+00:08:51	#LOGIN MGR# EnablePadKeyRemapping end( 1, 0x5030d, 0x13e30997, 1 ) -> 0(0x00000000)
+00:08:51	#LOGIN MGR# : \login_mgr.cpp(402) : NotifyDeviceAdd : OnDeviceAdded event send.
+00:08:51	Event OnControllerActivated isAutoAssignComplete:1, m_systemState:1000, isSendEvent:1
+00:08:51	#LOGIN MGR# [DeviceQueueMgr::Dequeue(new)] deviceId : 0x000000000005030d / isForce : 0
+00:08:51	ScePsP[TID:0x188a0]: sceMbusEvent has been received. (eventId=16 OWNERCHG, deviceId=0x5030d)
+00:08:51	ScePsP[TID:0x188a0]: ConnectedDeviceStatus: count=2
+00:08:51	  [c][DeviceId          ][UserId    ][Model     ]
+00:08:51	  [o][0x000000000005030d][0x13e30997][DUALSHOCK4]
+00:08:51	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:08:51	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:08:51	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:08:51	[LoginMgr] OnLoginMgrDequeueEvent - data : Sce.PlayStation.Orbis.Framework.PsmEventData
+00:08:51	[LoginMgr:EventQueue] Dequeue - param : {"EventType":3,"deviceId":328461,"isForce":false}
+00:08:51	[LoginMgr:Queue] Dequeue - queueType : Level2 / eventType : QueueEventTypeSelectUser / eventJson : {"EventType":3,"deviceId":328461,"isForce":false} / isForce : Fals
+00:08:51	e
+00:08:51	#LOGIN MGR# [IsNeedControllerLightCalibration] isNeed : 0 / type : 0
+00:08:51	#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_OWNER_CHANGED [DeviceId:0x5030d][UserId:0x13e30997]
+00:08:51	#LOGIN MGR# [OnDeviceOwnerChanged] deviceId : 0x5030d / userId : 0x13e30997
+00:08:52	[SceShellCore] Libc Heap Status: free 46%, in-use 3258.3 KB, trend +0.2 KB/min, peak 3696.6 KB, when 519 [sec]
+00:08:52	[SceShellUI] I/PSM.UI : [FirstClear] : ClearFrameBuffer=False
+00:08:53	00:08:22.306088 gls_ipc_server.cpp                       onNewClient                     [0x1895a]( 393) I: New Client pid=0x31
+00:08:53	00:08:22.306768 gls_ipc_server.cpp                       _initializeInternal             [0x1895a]( 724) I: ### Create Broadcaster ContextID:0x5
+00:08:53	00:08:22.307225 gls_ipc_server.cpp                       onSessionKilled                 [0x1895a]( 372) I: Client left. pid=0x31
+00:08:53	#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_VIDEO_OUT_EVENT eventType=0x1
+00:08:53	#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_VIDEO_OUT_EVENT
+00:08:53	#LOGIN MGR# [IsPuConnectHdmi] start checkDeviceId : 0x7000
+00:08:53	#LOGIN MGR# [IsPuConnectHdmi] sceAvSettingGetDeviceInfo -> 0(0x00000000)
+00:08:53	#LOGIN MGR# [IsPuConnectHdmi] videoOutCapability = 0x1
+00:08:53	#LOGIN MGR# [IsPuConnectHdmi] end checkDeviceId : 0x7000 -> isReady = 0
+00:08:53	#LOGIN MGR# [NotifyMorpheusConnectStatusChangedForHmuSetupDialog] deviceId : 0xffffffffffffffff / userId : 0xffffffff / avSettingPuType : 0 / connectStatus : 6
+00:08:53	#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_VIDEO_OUT_EVENT eventType=0x1
+00:08:53	#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_VIDEO_OUT_EVENT
+00:08:53	#LOGIN MGR# [IsPuConnectHdmi] start checkDeviceId : 0x7000
+00:08:53	#LOGIN MGR# [IsPuConnectHdmi] sceAvSettingGetDeviceInfo -> 0(0x00000000)
+00:08:53	#LOGIN MGR# [IsPuConnectHdmi] videoOutCapability = 0x1
+00:08:53	#LOGIN MGR# [IsPuConnectHdmi] end checkDeviceId : 0x7000 -> isReady = 0
+00:08:53	#LOGIN MGR# [NotifyMorpheusConnectStatusChangedForHmuSetupDialog] deviceId : 0xffffffffffffffff / userId : 0xffffffff / avSettingPuType : 0 / connectStatus : 6
+00:08:53	<118>[avs] no need to change 0,6,850246968352
+00:08:54	[SceShellCore] Remote Play will start soon.
+00:08:54	[SceSystemStateMgr] Power Mode Change: FULL_GAME
+00:08:54	[SceSystemStateMgr] CPU  HLT CP SE CU ACLK DCLK ECLK LCLK SCLK SAMCLK VCLK DispCLK NCLK MemCLK MemP GMC DPM VDD      VDDNB    SOC
+00:08:54	[SceSystemStateMgr] 1600   0 NA  0 18  800  609  609  800  800    711  711     673 1400   1375   NA  NA   3 040/1131 040/1131 00710f13
+00:08:56	[SceShellUI] I/PSM.UI : [NoDraw] : ClearFrameBuffer=False
+00:08:56	[SceShellUI] I/PSM.UI : [FirstClear] : ClearFrameBuffer=False
+00:09:02	[SceShellUI] I/PSM.UI : [NoDraw] : ClearFrameBuffer=False
+00:09:08	#LOGIN MGR# [IsRemotePlayDevice] DeviceId:0x5030d, IsRemotePlay:0
+00:09:08	[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [AppScreen : ApplicationScreenScene] -> [QuickMenuScene : MenuScene]
+00:09:08	[SceShellUI] I/PSM.UI :      Scene [QuickMenuScene : MenuScene] : Alive
+00:09:08	SetDeviceIndexBehavior: mode=SpecificUser, param=0x13e30997
+00:09:08	[Theme/I] : ActiveUserChanged : From : [ANONYMOUS(userId = ffffffff)]
+00:09:08	[Theme/I] : ActiveUserChanged : To   : [BLUE(userId = 13e30997)]
+00:09:08	[Theme/I] : Apply [BLUE] : [Option:111110]: with preloaded user
+00:09:08	[SceShellUI] I/PSM.UI : [FirstClear] : ClearFrameBuffer=False
+00:09:08	GetPlusInfoJob : Run(Start)
+00:09:08	GetPlusInfoJob : Run(End)
+00:09:08	GetPlusInfoJob : Finish / Cancelled False / Result True
+00:09:08	[UpdateUserInfoforPlus] upd_userId : 333646231 / type : Member
+00:09:12	[SceShellUI] W/PSM.UI : ** NOTICE: LoadSync : Noname : BGCoverScene
+00:09:12	[SceShellUI] W/PSM.UI : ** NOTICE: LoadSync : Noname : BGFrameScene
+00:09:12	[Theme/I] : Apply [BLUE] : [Option:000001]: with preloaded user
+00:09:12	[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [QuickMenuScene : MenuScene] -> [ApplicationExitScene : ApplicationExitScene]
+00:09:12	[SceShellUI] I/PSM.UI :      Scene [ApplicationExitScene : ApplicationExitScene] : Alive
+00:09:12	SetDeviceIndexBehavior: mode=SpecificUser, param=0x13e30997
+00:09:12	[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+00:09:12	[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.75msec/5widgets] : ApplicationExitScene : ApplicationExitScene
+00:09:12	GetPlusInfoJob : Run(Start)
+00:09:12	GetPlusInfoJob : Run(End)
+00:09:12	GetPlusInfoJob : Finish / Cancelled False / Result True
+00:09:12	[UpdateUserInfoforPlus] upd_userId : 333646231 / type : Member
+00:09:13	[Theme/I] : Apply [BLUE] : [Option:000001]: with preloaded user
+00:09:13	[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [ApplicationExitScene : ApplicationExitScene] -> [AppScreen : ApplicationScreenScene]
+00:09:13	[SceShellUI] I/PSM.UI :      Scene [AppScreen : ApplicationScreenScene] : Alive
+00:09:13	SetDeviceIndexBehavior: mode=MergeAllConnectedDevice, param=null
+00:09:13	[Theme/I] : ActiveUserChanged : From : [BLUE(userId = 13e30997)]
+00:09:13	[Theme/I] : ActiveUserChanged : To   : [ANONYMOUS(userId = ffffffff)]
+00:09:13	[Theme/I] : Apply [ANONYMOUS] : [Option:101000]: with not preloaded user
+00:09:13	[AppDb] openDb()[1026]: [File:Open] openDb() call dbutil::Connection::Open() path[/R6M7qXkXY8/priv/mms/app.db] flags[0x10000002] result[0x0, 0]
+00:09:13	[AppDb] AppInfoDbInitializeDaemon()[54]: [File:Open] AppInfoDbInitializeDaemon() call DbAccessor::Init() path[/R6M7qXkXY8/priv/mms/app.db] result[0x0, 0].
+00:09:13	[AppDb] AppInfoDbTerminateDaemon()[67]: [File:Close] AppInfoDbTerminateDaemon() call DbAccessor::Terminate().
+00:09:13	[AppDb] Terminate()[764]: [File:Close] DbAccessor::Terminate() call dbutil::Connection::Close().
+00:09:13	[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [AppScreen : ApplicationScreenScene] -> []
+00:09:13	SetDeviceIndexBehavior: mode=SpecificUser, param=0x13e30997
+00:09:13	[Theme/I] : ActiveUserChanged : From : [ANONYMOUS(userId = ffffffff)]
+00:09:13	[Theme/I] : ActiveUserChanged : To   : [BLUE(userId = 13e30997)]
+00:09:13	[SL] AppFocusChanged [CUSA15717] -> [NPXS20001]
+00:09:13	[SceLncService] KillApp() appId={0x60000d09}, withSuspend={1}, forceKill={0} killReason={0}
+00:09:13	[SceLncService] suspendApp appId={0x60000d09} before kill.
+00:09:13	[SceLncService] suspendApp() appId={0x60000d09}, causeCode={0x00000006}
+00:09:13	[SceLncService] Start suspending CUSA15717
+00:09:13	[SceLncService] 0000550831 (time trace)
+00:09:13	[SceLncService] lockSuspendBlock(0x60000d09)
+00:09:13	[SceLncService] lockSuspendBlock: appId={0x60000d09}
+00:09:13	[SceLncService] sceApplicationSuspend(0x60000d09)
+00:09:13	[Syscore App] Suspend App : 0x60000d09 CUSA15717
+00:09:13	[Syscore App] Suspend process : 0x44
+00:09:13	[Syscore App] Suspend process : 0x44 => 0
+00:09:13	[AppMgr Trace]: AppId=0x60000d09 suspended
+00:09:13	[Syscore App] Suspend App : 0x60000d09 CUSA15717 => SCE_OK
+00:09:13	[Syscore App]  ExpandCpuSetMode : enable
+00:09:13	<118>[avs] no need to change 0,8,882043071551
+00:09:13	<118>[avs] update 32:30
+00:09:13	<118>[avs] update 30:32
+00:09:13	[SceLncService] sceApplicationSuspend(0x60000d09) returned
+00:09:13	[SceLncService] Completed suspending CUSA15717 (30 msec)
+00:09:13	[SceLncService] 0000550862 (time trace)
+00:09:13	[SceSystemStateMgr] Power Mode Change: NAVIGATION
+00:09:13	[SceSystemStateMgr] CPU  HLT CP SE CU ACLK DCLK ECLK LCLK SCLK SAMCLK VCLK DispCLK NCLK MemCLK MemP GMC DPM VDD      VDDNB    SOC
+00:09:13	[SceSystemStateMgr] 1600   1 NA  0  8  711  609  609  711  711    609  711     673 1400   1375   NA  NA   3 040/1137 044/1106 00710f13
+00:09:13	[SceLncUtil] blockAppSuspend: name={SceSaveData}, appId={0x60000100}, refCount={1}
+00:09:13	[SceLncUtil] unblockAppSuspend: name={SceSaveData}, appId={0x60000100}, refCount={0}
+00:09:13	MSG AutoMounter(int32_t AppIdManager::getPidWithIndex(SceApplicationId, int, pid_t *) 174):
+00:09:13		appId(0x60000d09) with index(0) is not registered.
+00:09:13	MSG AutoMounter(int32_t AutoMount::UsbMass::fakeEjection(SceApplicationId) 716):
+00:09:13		getPidWithIndex(0x60000d09, 0) returned 0x80f40002.
+00:09:13	[SceLncService] unlockSuspendBlock: appId={0x60000d09}
+00:09:13	[SceLncService] suspendApp() appId={0x60000e0a}, causeCode={0x00000000}
+00:09:13	[SceLncService] focused app has been suspended. change focus appId={0x60000d09} -> nextAppId={0x60000201}
+00:09:13	[SceLncService] BlockingKill() appId={0x60000d09}, titleId={CUSA15717}, is_coredumpFinished={0}, forceKill={0}
+00:09:13	[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+00:09:13	[Syscore App]  ExpandCpuSetMode : enable
+00:09:13	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(799) killApp: LNC_ISOK::0x80aa0003
+00:09:13	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_util_ipc_server.cpp(392) Run: LNC_ISOK::0x80aa0003
+00:09:13	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:13	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:13	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:13	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:13	[VCS]checkApplicationStatus() [LNC->VCS] App was Suspended. appId = 0x60000d09.
+00:09:13	[VCS]checkFocusStatus() [LNC->VCS] Focus Change. appType = 1(SHELL_UI). appId = 0x60000201.
+00:09:13	[BGFT] [5006] GameSuspended(CUSA15717, 3)
+00:09:13	[SceLncUtil] W:\Build\J02277573\vsh\common_lib\lnc_util\src\lnc_util_ipc_client.cpp(228) killApp: LNC_ISOK::0x80aa0003
+00:09:13	KillAppSync KillApp res:80AA0003 appId:60000D09
+00:09:13	[UIProcess] malloc stats freeSize:40786016 (97%) inuseSize:1157024 peakSize:2700480 [pid:0x38]
+00:09:13	[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [] -> [ContentAreaScene : ContentAreaScene]
+00:09:13	[SceShellUI] I/PSM.UI :      Scene [ContentAreaScene : ContentAreaScene] : Alive
+00:09:13	SetDeviceIndexBehavior: mode=SpecificUser, param=0x13e30997
+00:09:13	[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+00:09:13	[SceShellUI] I/PSM.UI : ** Unload enqueue: Noname : DefocusGameLayerDelayScene
+00:09:13	[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : Noname : DefocusGameLayerDelayScene
+00:09:13	[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : Noname : DefocusGameLayerDelayScene
+00:09:13	[SceLncService] KillApp() appId={0x60000d09}, withSuspend={1}, forceKill={0} killReason={0}
+00:09:13	[SceLncService] suspendApp appId={0x60000d09} before kill.
+00:09:13	[SceLncService] suspendApp() appId={0x60000d09}, causeCode={0x00000006}
+00:09:13	[SceLncService] BlockingKill() appId={0x60000d09}, titleId={CUSA15717}, is_coredumpFinished={0}, forceKill={0}
+00:09:13	[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+00:09:13	[Syscore App]  ExpandCpuSetMode : enable
+00:09:13	[CM][  540.724609][0x18c09][*ERR*][SERVER][ALWAYS][DeleteAppInfo:459]AppId not found. appId=0x60000d09
+00:09:13	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(799) killApp: LNC_ISOK::0x80aa0003
+00:09:13	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_util_ipc_server.cpp(392) Run: LNC_ISOK::0x80aa0003
+00:09:13	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:13	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:13	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:13	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:13	[SceShareFactoryUtilServer] W:\Build\J02277573\vsh\shell\shell_core\share_factory_util\share_factory_util_server.cpp(444) handleLncEvent: SFU_CHECK::0x81630001 (it !
+00:09:13	= m_appList.end() value is false)
+00:09:13	[SceLncUtil] W:\Build\J02277573\vsh\common_lib\lnc_util\src\lnc_util_ipc_client.cpp(228) killApp: LNC_ISOK::0x80aa0003
+00:09:13	KillAppSync KillApp res:80AA0003 appId:60000D09
+00:09:13	[PSM] Got handle=0x2 from m_idType=2, m_id=0x2
+00:09:13	[SceShellUI] I/PSM.UI : ----- WebView Created AC CanvasTexture2D -----2 (1920:1080)
+00:09:13	[SceShellUI] I/PSM.UI : ** Unload enqueue: ApplicationExitScene : ApplicationExitScene
+00:09:13	[SceShellUI] I/PSM.UI : ** Unload enqueue: Noname : BGFrameScene
+00:09:13	[SceShellUI] I/PSM.UI : ** Unload enqueue: Noname : BGCoverScene
+00:09:13	[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : ApplicationExitScene : ApplicationExitScene
+00:09:13	[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : Noname : BGFrameScene
+00:09:13	[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : Noname : BGCoverScene
+00:09:14	[SceLncService] KillApp() appId={0x60000d09}, withSuspend={1}, forceKill={0} killReason={0}
+00:09:14	[SceLncService] suspendApp appId={0x60000d09} before kill.
+00:09:14	[SceLncService] suspendApp() appId={0x60000d09}, causeCode={0x00000006}
+00:09:14	[SceLncService] BlockingKill() appId={0x60000d09}, titleId={CUSA15717}, is_coredumpFinished={0}, forceKill={0}
+00:09:14	[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+00:09:14	[Syscore App]  ExpandCpuSetMode : enable
+00:09:14	[CM][  541.032532][0x18c0f][*ERR*][SERVER][ALWAYS][DeleteAppInfo:459]AppId not found. appId=0x60000d09
+00:09:14	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(799) killApp: LNC_ISOK::0x80aa0003
+00:09:14	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_util_ipc_server.cpp(392) Run: LNC_ISOK::0x80aa0003
+00:09:14	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:14	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:14	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:14	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:14	[SceShareFactoryUtilServer] W:\Build\J02277573\vsh\shell\shell_core\share_factory_util\share_factory_util_server.cpp(444) handleLncEvent: SFU_CHECK::0x81630001 (it !
+00:09:14	= m_appList.end() value is false)
+00:09:14	[SceLncUtil] W:\Build\J02277573\vsh\common_lib\lnc_util\src\lnc_util_ipc_client.cpp(228) killApp: LNC_ISOK::0x80aa0003
+00:09:14	KillAppSync KillApp res:80AA0003 appId:60000D09
+00:09:14	[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+00:09:14	[SceLncService] KillApp() appId={0x60000d09}, withSuspend={1}, forceKill={0} killReason={0}
+00:09:14	[SceLncService] suspendApp appId={0x60000d09} before kill.
+00:09:14	[SceLncService] suspendApp() appId={0x60000d09}, causeCode={0x00000006}
+00:09:14	[SceLncService] BlockingKill() appId={0x60000d09}, titleId={CUSA15717}, is_coredumpFinished={0}, forceKill={0}
+00:09:14	[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+00:09:14	[Syscore App]  ExpandCpuSetMode : enable
+00:09:14	[CM][  541.337769][0x18c13][*ERR*][SERVER][ALWAYS][DeleteAppInfo:459]AppId not found. appId=0x60000d09
+00:09:14	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(799) killApp: LNC_ISOK::0x80aa0003
+00:09:14	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_util_ipc_server.cpp(392) Run: LNC_ISOK::0x80aa0003
+00:09:14	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:14	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:14	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:14	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:14	[SceShareFactoryUtilServer] W:\Build\J02277573\vsh\shell\shell_core\share_factory_util\share_factory_util_server.cpp(444) handleLncEvent: SFU_CHECK::0x81630001 (it !
+00:09:14	= m_appList.end() value is false)
+00:09:14	[SceLncUtil] W:\Build\J02277573\vsh\common_lib\lnc_util\src\lnc_util_ipc_client.cpp(228) killApp: LNC_ISOK::0x80aa0003
+00:09:14	KillAppSync KillApp res:80AA0003 appId:60000D09
+00:09:14	[SceLncService] KillApp() appId={0x60000d09}, withSuspend={1}, forceKill={0} killReason={0}
+00:09:14	[SceLncService] suspendApp appId={0x60000d09} before kill.
+00:09:14	[SceLncService] suspendApp() appId={0x60000d09}, causeCode={0x00000006}
+00:09:14	[SceLncService] BlockingKill() appId={0x60000d09}, titleId={CUSA15717}, is_coredumpFinished={0}, forceKill={0}
+00:09:14	[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+00:09:14	[Syscore App]  ExpandCpuSetMode : enable
+00:09:14	[CM][  541.641479][0x18c17][*ERR*][SERVER][ALWAYS][DeleteAppInfo:459]AppId not found. appId=0x60000d09
+00:09:14	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(799) killApp: LNC_ISOK::0x80aa0003
+00:09:14	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_util_ipc_server.cpp(392) Run: LNC_ISOK::0x80aa0003
+00:09:14	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:14	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:14	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:14	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:14	[SceShareFactoryUtilServer] W:\Build\J02277573\vsh\shell\shell_core\share_factory_util\share_factory_util_server.cpp(444) handleLncEvent: SFU_CHECK::0x81630001 (it !
+00:09:14	= m_appList.end() value is false)
+00:09:14	[SceLncUtil] W:\Build\J02277573\vsh\common_lib\lnc_util\src\lnc_util_ipc_client.cpp(228) killApp: LNC_ISOK::0x80aa0003
+00:09:14	KillAppSync KillApp res:80AA0003 appId:60000D09
+00:09:14	[SceLncService] KillApp() appId={0x60000d09}, withSuspend={1}, forceKill={0} killReason={0}
+00:09:14	[SceLncService] suspendApp appId={0x60000d09} before kill.
+00:09:14	[SceLncService] suspendApp() appId={0x60000d09}, causeCode={0x00000006}
+00:09:14	[SceLncService] BlockingKill() appId={0x60000d09}, titleId={CUSA15717}, is_coredumpFinished={0}, forceKill={0}
+00:09:14	[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+00:09:14	[Syscore App]  ExpandCpuSetMode : enable
+00:09:14	[CM][  541.945251][0x18c1b][*ERR*][SERVER][ALWAYS][DeleteAppInfo:459]AppId not found. appId=0x60000d09
+00:09:14	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(799) killApp: LNC_ISOK::0x80aa0003
+00:09:14	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_util_ipc_server.cpp(392) Run: LNC_ISOK::0x80aa0003
+00:09:14	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:14	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:14	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:14	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:15	[SceShareFactoryUtilServer] W:\Build\J02277573\vsh\shell\shell_core\share_factory_util\share_factory_util_server.cpp(444) handleLncEvent: SFU_CHECK::0x81630001 (it !
+00:09:15	= m_appList.end() value is false)
+00:09:15	[SceLncUtil] W:\Build\J02277573\vsh\common_lib\lnc_util\src\lnc_util_ipc_client.cpp(228) killApp: LNC_ISOK::0x80aa0003
+00:09:15	KillAppSync KillApp res:80AA0003 appId:60000D09
+00:09:15	[SceLncService] KillApp() appId={0x60000d09}, withSuspend={1}, forceKill={0} killReason={0}
+00:09:15	[SceLncService] suspendApp appId={0x60000d09} before kill.
+00:09:15	[SceLncService] suspendApp() appId={0x60000d09}, causeCode={0x00000006}
+00:09:15	[SceLncService] BlockingKill() appId={0x60000d09}, titleId={CUSA15717}, is_coredumpFinished={0}, forceKill={0}
+00:09:15	[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+00:09:15	[Syscore App]  ExpandCpuSetMode : enable
+00:09:15	[CM][  542.250427][0x18c1f][*ERR*][SERVER][ALWAYS][DeleteAppInfo:459]AppId not found. appId=0x60000d09
+00:09:15	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(799) killApp: LNC_ISOK::0x80aa0003
+00:09:15	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_util_ipc_server.cpp(392) Run: LNC_ISOK::0x80aa0003
+00:09:15	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:15	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:15	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:15	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:15	[SceShareFactoryUtilServer] W:\Build\J02277573\vsh\shell\shell_core\share_factory_util\share_factory_util_server.cpp(444) handleLncEvent: SFU_CHECK::0x81630001 (it !
+00:09:15	= m_appList.end() value is false)
+00:09:15	[SceLncUtil] W:\Build\J02277573\vsh\common_lib\lnc_util\src\lnc_util_ipc_client.cpp(228) killApp: LNC_ISOK::0x80aa0003
+00:09:15	KillAppSync KillApp res:80AA0003 appId:60000D09
+00:09:15	[SceLncService] KillApp() appId={0x60000d09}, withSuspend={1}, forceKill={0} killReason={0}
+00:09:15	[SceLncService] suspendApp appId={0x60000d09} before kill.
+00:09:15	[SceLncService] suspendApp() appId={0x60000d09}, causeCode={0x00000006}
+00:09:15	[SceLncService] BlockingKill() appId={0x60000d09}, titleId={CUSA15717}, is_coredumpFinished={0}, forceKill={0}
+00:09:15	[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+00:09:15	[Syscore App]  ExpandCpuSetMode : enable
+00:09:15	[CM][  542.553772][0x18c23][*ERR*][SERVER][ALWAYS][DeleteAppInfo:459]AppId not found. appId=0x60000d09
+00:09:15	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(799) killApp: LNC_ISOK::0x80aa0003
+00:09:15	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_util_ipc_server.cpp(392) Run: LNC_ISOK::0x80aa0003
+00:09:15	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:15	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:15	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:15	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:15	[SceShareFactoryUtilServer] W:\Build\J02277573\vsh\shell\shell_core\share_factory_util\share_factory_util_server.cpp(444) handleLncEvent: SFU_CHECK::0x81630001 (it !
+00:09:15	= m_appList.end() value is false)
+00:09:15	[SceLncUtil] W:\Build\J02277573\vsh\common_lib\lnc_util\src\lnc_util_ipc_client.cpp(228) killApp: LNC_ISOK::0x80aa0003
+00:09:15	KillAppSync KillApp res:80AA0003 appId:60000D09
+00:09:15	[SceLncService] KillApp() appId={0x60000d09}, withSuspend={1}, forceKill={0} killReason={0}
+00:09:15	[SceLncService] suspendApp appId={0x60000d09} before kill.
+00:09:15	[SceLncService] suspendApp() appId={0x60000d09}, causeCode={0x00000006}
+00:09:15	[SceLncService] BlockingKill() appId={0x60000d09}, titleId={CUSA15717}, is_coredumpFinished={0}, forceKill={0}
+00:09:15	[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+00:09:15	[Syscore App]  ExpandCpuSetMode : enable
+00:09:15	[CM][  542.857727][0x18c27][*ERR*][SERVER][ALWAYS][DeleteAppInfo:459]AppId not found. appId=0x60000d09
+00:09:15	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(799) killApp: LNC_ISOK::0x80aa0003
+00:09:15	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_util_ipc_server.cpp(392) Run: LNC_ISOK::0x80aa0003
+00:09:15	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:15	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:15	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:15	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:15	[SceShareFactoryUtilServer] W:\Build\J02277573\vsh\shell\shell_core\share_factory_util\share_factory_util_server.cpp(444) handleLncEvent: SFU_CHECK::0x81630001 (it !
+00:09:15	= m_appList.end() value is false)
+00:09:15	[SceLncUtil] W:\Build\J02277573\vsh\common_lib\lnc_util\src\lnc_util_ipc_client.cpp(228) killApp: LNC_ISOK::0x80aa0003
+00:09:15	KillAppSync KillApp res:80AA0003 appId:60000D09
+00:09:16	[SceLncService] KillApp() appId={0x60000d09}, withSuspend={1}, forceKill={0} killReason={0}
+00:09:16	[SceLncService] suspendApp appId={0x60000d09} before kill.
+00:09:16	[SceLncService] suspendApp() appId={0x60000d09}, causeCode={0x00000006}
+00:09:16	[SceLncService] BlockingKill() appId={0x60000d09}, titleId={CUSA15717}, is_coredumpFinished={0}, forceKill={0}
+00:09:16	[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+00:09:16	[Syscore App]  ExpandCpuSetMode : enable
+00:09:16	[CM][  543.165161][0x18c2b][*ERR*][SERVER][ALWAYS][DeleteAppInfo:459]AppId not found. appId=0x60000d09
+00:09:16	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(799) killApp: LNC_ISOK::0x80aa0003
+00:09:16	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_util_ipc_server.cpp(392) Run: LNC_ISOK::0x80aa0003
+00:09:16	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:16	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:16	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:16	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:16	[SceShareFactoryUtilServer] W:\Build\J02277573\vsh\shell\shell_core\share_factory_util\share_factory_util_server.cpp(444) handleLncEvent: SFU_CHECK::0x81630001 (it !
+00:09:16	= m_appList.end() value is false)
+00:09:16	[SceLncUtil] W:\Build\J02277573\vsh\common_lib\lnc_util\src\lnc_util_ipc_client.cpp(228) killApp: LNC_ISOK::0x80aa0003
+00:09:16	KillAppSync KillApp res:80AA0003 appId:60000D09
+00:09:16	[SceLncService] KillApp() appId={0x60000d09}, withSuspend={1}, forceKill={1} killReason={0}
+00:09:16	[SceLncService] BlockingKill() appId={0x60000d09}, titleId={CUSA15717}, is_coredumpFinished={0}, forceKill={1}
+00:09:16	[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+00:09:16	[Syscore App] Kill App : 0x60000d09 CUSA15717
+00:09:16	[Syscore App] Kill process: 0x44
+00:09:16	[mbus] onSessionKilled. pid=68
+00:09:16	[sceProcessStarter] OnIpcSessionClose()
+00:09:16	[libSceSaveData] api_id: term, titleId=CUSA15717
+00:09:16	@ removeSession:L184
+00:09:16	Game Close detected
+00:09:16	GnmCompositor Reset Sequence Start
+00:09:16	GnmCompositor set reset flag
+00:09:16	[Syscore App] EVFILT_PROC NOTE_EXIT received : pid=0x44
+00:09:16	[Syscore App] Kill process: 0x44 => 0
+00:09:16	[Syscore App] process delete event : pid=0x44
+00:09:16	[AppMgr Trace]: pid=0x44, deleted.
+00:09:16	[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+00:09:16	[AppMgr] All processes exited
+00:09:16	[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_ON_APP_UNLOADED
+00:09:16	[AppMgr Trace]: AppId=0x60000d09  deleted
+00:09:16	[Syscore App] Kill App : 0xffffffff  => 0
+00:09:16	[Syscore App] blockingKill(0x60000d09, 1) complete
+00:09:16	[AppMgr] checkAppTerminated invalid app.
+00:09:16	[Syscore App]  ExpandCpuSetMode : enable
+00:09:16	[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+00:09:16	[SceLncService] start unmountAllForShellCoreInternal()
+00:09:16	[SceLncService] end unmountAllForShellCoreInternal()
+00:09:16	[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_ON_APP_UNLOADED
+00:09:16	[SceLncService] W:\Build\J02277573\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(2017) getAppTitleId: LNC_ISOK::0x80940004
+00:09:16	[PS]Error: W:\Build\J02277573\vsh\shell\shell_core\process_starter\process_mount.cpp at 6555
+00:09:16	sceLncServiceGetAppTitleId() ret = 80940004
+00:09:16	[CM][  543.523132][0x18c2f][*ERR*][SERVER][ALWAYS][DeleteAppInfo:459]AppId not found. appId=0x60000d09
+00:09:16	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:16	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:16	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:16	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:16	[libSceSaveData] wait 0 msec for session killed
+00:09:16	[SceRnpsAppMgr] UnblockAllAppInstall(): CUSA15717(appId=0x60000d09)
+00:09:16	[SceLncService] KillApp() appId={0x60000e0a}, withSuspend={1}, forceKill={1} killReason={0}
+00:09:16	[SceLncService] BlockingKill() appId={0x60000e0a}, titleId={NPXS22010}, is_coredumpFinished={0}, forceKill={1}
+00:09:16	[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+00:09:16	[Syscore App] Kill App : 0x60000e0a NPXS22010
+00:09:16	[Syscore App] Kill process: 0x45
+00:09:16	[mbus] onSessionKilled. pid=69
+00:09:16	@ removeSession:L184
+00:09:16	[VCS]closeSession() [APP->VCS] clientPid = 0x45.
+00:09:16	#PROFILE CACHE#: \profile_cache_server_event.cpp(92) : onSessionKilled :
+00:09:16	[Syscore App] EVFILT_PROC NOTE_EXIT received : pid=0x45
+00:09:16	[Syscore App] Kill process: 0x45 => 0
+00:09:16	[AppMgr Trace]: pid=0x45, deleted.
+00:09:16	[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+00:09:16	[AppMgr] All processes exited
+00:09:16	[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+00:09:16	[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_ON_APP_UNLOADED
+00:09:16	[AppMgr Trace]: AppId=0x60000e0a  deleted
+00:09:16	[Syscore App] Kill App : 0xffffffff  => 0
+00:09:16	[Syscore App] blockingKill(0x60000e0a, 1) complete
+00:09:16	[AppMgr] checkAppTerminated invalid app.
+00:09:16	[Syscore App]  ExpandCpuSetMode : enable
+00:09:16	[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_ON_APP_UNLOADED
+00:09:16	[SceLncService] start unmountAllForShellCoreInternal()
+00:09:16	[SceLncService] end unmountAllForShellCoreInternal()
+00:09:16	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:09:16	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:09:16	[SceRnpsAppMgr] UnblockAllAppInstall(): NPXS22010(appId=0x60000e0a)
+00:09:16	[SceLncService] onAppExit() appId={0x60000d09}
+00:09:16	[SceShareFactoryUtilServer] W:\Build\J02277573\vsh\shell\shell_core\share_factory_util\share_factory_util_server.cpp(444) handleLncEvent: SFU_CHECK::0x81630001 (it !
+00:09:16	= m_appList.end() value is false)
+00:09:16	[Syscore App] process delete event : pid=0x45
+00:09:16	[SceLncService] ProcessTerm()
+00:09:16	[SceLncService] ProcessTerm() returned
+00:09:16	[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+00:09:16	[SceLncService] Cleaning /av_contents/content_tmp
+00:09:16	[SceLncService] ProcessTerm()
+00:09:16	[sceProcessStarter] ProcessTerm() big/mini app title_id = [CUSA15717] root_dir = [/mnt/sandbox/DBUG00002_000]
+00:09:16	[SceLncService] onAppExit() appId={0x60000e0a}
+00:09:16	[BGFT] [641] GameStopped(CUSA15717, 3) start
+00:09:16	[BGFT] [643] GameStopped(CUSA15717, 3) end
+00:09:16	[SceLncService] ProcessTerm() returned
+00:09:16	[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+00:09:16	[VCS]checkApplicationStatus() [LNC->VCS] App was Killed. appId = 0x60000d09.
+00:09:16	[VCS]checkApplicationStatus() [LNC->VCS] App was Killed. appId = 0x60000e0a.
+00:09:16	[VCS]checkCpuUsage() [LNC->VCS] ShellUI is Fg. Recover cpu usage.
+00:09:23	[SceShellCore] Libc Heap Status: free 47%, in-use 3203.3 KB, trend -55.7 KB/min, peak 3696.6 KB, when 550 [sec]
+00:09:23	[SceShellCore] VM Stats: RSS 784.1, kernel 271.8, wire count 335.2, swap out 0.0, page table CPU 2309/6144 GPU 267/2048
+00:09:23	[SceShellCore] FMEM   0.6/   4.6 NPXS20977 SceSysAvControl.elf
+00:09:23	[SceShellCore] FMEM   9.7/  76.2 NPXS20991 SceSysCore.elf
+00:09:23	[SceShellCore] FMEM   5.8/  55.5 NPXS20973 orbis_audiod.elf
+00:09:23	[SceShellCore] FMEM   3.0/  11.1 NPXS20976 GnmCompositor.elf
+00:09:23	[SceShellCore] FMEM  25.1/ 280.1 NPXS20000 SceShellCore
+00:09:23	[SceShellCore] FMEM   9.5/ 155.6 decid.elf
+00:09:23	[SceShellCore] FMEM 354.6/ 959.5 NPXS20001 SceShellUI
+00:09:23	[SceShellCore] FMEM   6.6/  12.0 NPXS21003 SceAvCapture
+00:09:23	[SceShellCore] FMEM   8.0/  23.2 NPXS21000 SceGameLiveStreaming
+00:09:23	[SceShellCore] FMEM   9.2/  22.9 NPXS21002 ScePartyDaemon
+00:09:23	[SceShellCore] FMEM   4.5/  25.4 NPXS21004 SceVideoCoreServer
+00:09:23	[SceShellCore] FMEM  22.2/  49.0 NPXS21006 SceRemotePlay
+00:09:23	[SceShellCore] FMEM   6.3/  17.3 NPXS21019 SceSocialScreenMgr
+00:09:23	[SceShellCore] FMEM   4.3/   8.6 NPXS21007 SceMusicCoreServer
+00:09:23	[SceShellCore] FMEM   2.2/   5.0 NPXS20967 fs_cleaner.elf
+00:09:23	[SceShellCore] FMEM   2.2/  10.2 NPXS20974 SceVdecProxy.elf
+00:09:23	[SceShellCore] FMEM   2.4/  10.2 NPXS20975 SceVencProxy.elf
+00:09:23	[SceShellCore] FMEM  57.1/ 337.4 NPXS20001 SecureUIProcess.self
+00:09:23	[SceShellCore] FMEM 169.6/ 593.0 NPXS20001 SecureWebProcess.self
+00:09:23	[SceShellCore] FMEM  80.9/ 358.7 NPXS20001 orbis-jsc-compiler.self
+00:09:54	* removeDevice:L1421 [MBUS] Receive device disconnect event.(deviceId=0x5030d)
+00:09:55	**getHidBatteryState:L373 sceHidControlGetBatteryState() failed. devId=0x5030d, ret=0x803b0003
+00:09:55	@ checkAudioOutHandleStatus:L2487
+00:09:55	ScePsP[TID:0x188a0]: sceMbusEvent has been received. (eventId=2 REMOVED, deviceId=0x5030d)
+00:09:55	#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_REMOVED [DeviceId:0x5030d][SubType:2][REASON:0]
+00:09:55	#LOGIN MGR# [DeviceQueueMgr::Dequeue(new)] deviceId : 0x000000000005030d / isForce : 0
+00:09:55	ScePsP[TID:0x188a0]: Close Pad [0x03090301]: ret=0x00000000
+00:09:55	ScePsP[TID:0x188a0]: ConnectedDeviceStatus: count=1
+00:09:55	  [c][DeviceId          ][UserId    ][Model     ]
+00:09:55	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:09:55	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:09:55	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:09:55	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:09:55	[LoginMgr] OnLoginMgrDequeueEvent - data : Sce.PlayStation.Orbis.Framework.PsmEventData
+00:09:55	[LoginMgr:EventQueue] Dequeue - param : {"EventType":3,"deviceId":328461,"isForce":false}
+00:09:55	[LoginMgr:Queue] Dequeue - queueType : Level2 / eventType : QueueEventTypeSelectUser / eventJson : {"EventType":3,"deviceId":328461,"isForce":false} / isForce : Fals
+00:09:55	e
+00:09:55	[SceShellCore] Libc Heap Status: free 47%, in-use 3203.2 KB, trend -56.1 KB/min, peak 3696.6 KB, when 582 [sec]
+00:09:55	launching : /host/\\KIV-WKS-TT128D\dtest_orbis_release_root_3c0cf1e5d86f$\bin\orbis\FCLaunch_Orbis_r.ppu.elf -dtagentparams=ResourceId=228@DebugFlags=40@FarmAddress=
+00:09:55	10.41.3.191:2000@AgentGUID=df7d6d6d-e662-4422-9752-15a471abc312@ -dttestname=PoisonTempTest -dtartefactpath=T:\IntermediateStorage\6593\13285_PoisonTempTest\A0 -dtno
+00:09:55	popup -logFile=T13285_A0_log.txt -matchkey=dt_onalozhytov_13285_matchingkey -nomouse -nolauncher -skipintro -studioEnvironment Toronto -earlyexecline=activate_log On
+00:09:55	lineLoggerLog -silentbloomberg -bloombergtracedebug -enable_autotest_service -coop -world fc6_main -bfname fc6_main -httpproxy=proxy.mdc.ubisoft.org -httpproxyport=3
+00:09:55	128 -bypasslinkapp -nocmdlineini -silentmode -autopressstart -usepcdata -rtpal=10.41.3.22
+00:09:55	[Syscore App]TRACE : W:\Build\J02277569\sys\internal\syscore\app\app_syscore_event.cpp 926 setWaitState()
+00:09:55	[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_LAUNCH_REQUEST_FROM_DEBUGGER
+00:09:55	[Syscore App]TRACE : W:\Build\J02277569\sys\internal\syscore\app\app_syscore_event.cpp 961 receiveResult()
+00:09:55	[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_LAUNCH_REQUEST_FROM_DEBUGGER
+00:09:55	[SceLncService] category={gd} VRMode={0,0}
+00:09:55	[SceLncService] hnm,psnf,pc,tk,ns={0,0,1,0,1} appBootMode={0}
+00:09:55	[SceLncService] appType={SCE_LNC_APP_TYPE_BIG_APP} [DEBUGGER] appVer={01.00}
+00:09:55	[SceLncService] Waiting for LoginMgr
+00:09:55	[SceLncService] Num. of logged-in users is 1
+00:09:55	[SceLncService] PrepareProcessLaunchCheck()
+00:09:55	[SceLncService] PrepareProcessLaunchCheck() returned
+00:09:55	[SceSystemStateMgr] Power Mode Change: FULL_GAME
+00:09:55	[SceSystemStateMgr] CPU  HLT CP SE CU ACLK DCLK ECLK LCLK SCLK SAMCLK VCLK DispCLK NCLK MemCLK MemP GMC DPM VDD      VDDNB    SOC
+00:09:55	[SceSystemStateMgr] 1600   0 NA  0 18  800  609  609  800  800    711  711     673 1400   1375   NA  NA   3 040/1137 040/1125 00710f13
+00:09:55	[SceLncService] PrepareProcessLaunchDebugger()
+00:09:55	[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [ContentAreaScene : ContentAreaScene] -> [AppScreen : ApplicationScreenScene]
+00:09:55	[SceShellUI] I/PSM.UI :      Scene [AppScreen : ApplicationScreenScene] : Alive
+00:09:55	SetDeviceIndexBehavior: mode=MergeAllConnectedDevice, param=null
+00:09:55	[Theme/I] : ActiveUserChanged : From : [BLUE(userId = 13e30997)]
+00:09:55	[Theme/I] : ActiveUserChanged : To   : [ANONYMOUS(userId = ffffffff)]
+00:09:55	[Theme/I] : Apply [ANONYMOUS] : [Option:101000]: with not preloaded user
+00:09:55	[BGFT] [606] GameWillStart(CUSA15717, 3) start
+00:09:55	[BGFT] [608] GameWillStart(CUSA15717, 3) end
+00:09:56	[UIProcess] malloc stats freeSize:40786080 (97%) inuseSize:1156960 peakSize:2700480 [pid:0x38]
+00:09:56	[PSM] Got handle=0xffffffff from m_idType=2, m_id=0xffffffff
+00:09:56	ioctl(DIOCGSECTORSIZE): Inappropriate ioctl for device
+00:09:56	sceFsUfsCheckFixedCylinderGroupSize: sceFsGetDeviceSectorsize() failed[80020019], assume DEV_BSIZE
+00:09:56	ioctl(DIOCGSECTORSIZE): Inappropriate ioctl for device
+00:09:56	sceFsUfsCheckFixedCylinderGroupSize: sceFsGetDeviceSectorsize() failed[80020019], assume DEV_BSIZE
+00:09:56	[SceLncService] PrepareProcessLaunchDebugger() returned
+00:09:56	[SceLncService] spawnApp
+00:09:56	[Syscore App] createApp CUSA15717
+00:09:56	[Syscore App]  ExpandCpuSetMode : disable
+00:09:56	[Syscore App] processSpawn(pid, 0x60000f09, 0x10f09120, appParam, processParam, 1, 1, 1, param, debug, 0)
+00:09:56	[Syscore App] appParam: appType = 0, rootPath = /mnt/sandbox/DBUG00003_000, titleId = CUSA15717
+00:09:56	[Syscore App] processParam: elfPath = /host/\\KIV-WKS-TT128D\dtest_orbis_release_root_3c0cf1e5d86f$\bin\orbis\FCLaunch_Orbis_r.ppu.elf, fullPath = /host/\\KIV-WKS-TT
+00:09:56	128D\dtest_orbis_release_root_3c0cf1e5d86f$\bin\orbis\FCLaunch_Orbis_r.ppu.elf
+00:09:56	[VCS]checkCpuUsage() [LNC->VCS] ShellUI is Bg. Reduce cpu usage.
+00:09:56	[Syscore App] new pid=0x4b[Syscore App] attributeExe= 0
+00:09:56	[Syscore App] Ready to exec
+00:09:56	[Syscore App] wait for NOTE_EXIT|NOTE_EXEC
+00:09:58	[SceShellCore] Main thread has frozen in sceApplicationSignalShellCoreHeartBeat() for 1 seconds
+00:09:59	[SceShellCore] Main thread has frozen in sceApplicationSignalShellCoreHeartBeat() for 2 seconds
+00:10:00	[SceShellCore] Main thread has frozen in sceApplicationSignalShellCoreHeartBeat() for 3 seconds
+00:10:00	[SceShellUI] I/PSM.UI : [NoDraw] : ClearFrameBuffer=False
+00:10:01	[SceShellCore] Main thread has frozen in sceApplicationSignalShellCoreHeartBeat() for 4 seconds
+00:10:02	[SceShellCore] Main thread has frozen in sceApplicationSignalShellCoreHeartBeat() for 5 seconds
+00:10:04	[Syscore App] Waiting for lock "AppmgrStateLock" at W:\Build\J02277569\sys\internal\syscore\app\syscore_app.cpp:1169: context=Query by tid=18738, ownerThreadId=18737
+00:10:04	, Owner context="SpawnApp", owener lockat=W:\Build\J02277569\sys\internal\syscore\app\syscore_app.cpp:418:
+00:10:04	-------Appmgr Dump------
+00:10:04	m_applicationFocusAppId = 0x60000201
+00:10:04	m_controllerFocusAppId = 0x60000201
+00:10:04	m_stateMutex owenr=0x18737
+00:10:04	-------App List Dump Start------
+00:10:04	[appId=0x60000100, titleId=NPXS20000, fcs=0,0, addProcRightTid=0xffffffff(NULL), addProcFbd=0(0xffffffff, NULL), extSpn=0, cSdkVersion=0, isN=102760465, lockedBy=0xf
+00:10:04	fffffff,0xffffffff]
+00:10:04		[pid=0x2a, appLocalPid=0x10100010, elfPath=, state=1(RUNNING), crsh=0, excRisd=0, cdmp=0, susp0,0]
+00:10:04	[appId=0x60000201, titleId=NPXS20001, fcs=1,1, addProcRightTid=0xffffffff(NULL), addProcFbd=0(0xffffffff, NULL), extSpn=0, cSdkVersion=0, isN=0, lockedBy=0xffffffff,
+00:10:04	0xffffffff]
+00:10:04		[pid=0x2c, appLocalPid=0x10201020, elfPath=/app0/eboot.bin, state=1(RUNNING), crsh=0, excRisd=0, cdmp=0, susp0,0]
+00:10:04		[pid=0x38, appLocalPid=0x102010a1, elfPath=/e5WF90zT5H/common/lib/SecureUIProcess.self, state=1(RUNNING), crsh=0, excRisd=0, cdmp=0, susp0,0]
+00:10:04		[pid=0x39, appLocalPid=0x102010b2, elfPath=/e5WF90zT5H/common/lib/SecureWebProcess.self, state=1(RUNNING), crsh=0, excRisd=0, cdmp=0, susp0,0]
+00:10:04		[pid=0x3a, appLocalPid=0x102010c3, elfPath=/e5WF90zT5H/common/lib/orbis-jsc-compiler.self, state=1(RUNNING), crsh=0, excRisd=0, cdmp=0, susp0,0]
+00:10:04	[appId=0x60000302, titleId=NPXS21003, fcs=0,0, addProcRightTid=0xffffffff(NULL), addProcFbd=0(0xffffffff, NULL), extSpn=0, cSdkVersion=0, isN=0, lockedBy=0xffffffff,
+00:10:04	0xffffffff]
+00:10:04		[pid=0x2d, appLocalPid=0x10302030, elfPath=/app0/eboot.bin, state=1(RUNNING), crsh=0, excRisd=0, cdmp=0, susp0,0]
+00:10:04	[appId=0x60000403, titleId=NPXS21000, fcs=0,0, addProcRightTid=0xffffffff(NULL), addProcFbd=0(0xffffffff, NULL), extSpn=0, cSdkVersion=0, isN=0, lockedBy=0xffffffff,
+00:10:04	0xffffffff]
+00:10:04		[pid=0x2e, appLocalPid=0x10403040, elfPath=/app0/eboot.bin, state=1(RUNNING), crsh=0, excRisd=0, cdmp=0, susp0,0]
+00:10:04	[appId=0x60000504, titleId=NPXS21002, fcs=0,0, addProcRightTid=0xffffffff(NULL), addProcFbd=0(0xffffffff, NULL), extSpn=0, cSdkVersion=0, isN=0, lockedBy=0xffffffff,
+00:10:04	0xffffffff]
+00:10:04		[pid=0x2f, appLocalPid=0x10504050, elfPath=/app0/eboot.bin, state=1(RUNNING), crsh=0, excRisd=0, cdmp=0, susp0,0]
+00:10:04	[appId=0x60000605, titleId=NPXS21004, fcs=0,0, addProcRightTid=0xffffffff(NULL), addProcFbd=0(0xffffffff, NULL), extSpn=0, cSdkVersion=0, isN=0, lockedBy=0xffffffff,
+00:10:04	0xffffffff]
+00:10:04		[pid=0x30, appLocalPid=0x10605060, elfPath=/app0/eboot.bin, state=1(RUNNING), crsh=0, excRisd=0, cdmp=0, susp0,0]
+00:10:04	[appId=0x60000706, titleId=NPXS21006, fcs=0,0, addProcRightTid=0xffffffff(NULL), addProcFbd=0(0xffffffff, NULL), extSpn=0, cSdkVersion=0, isN=0, lockedBy=0xffffffff,
+00:10:04	0xffffffff]
+00:10:04		[pid=0x31, appLocalPid=0x10706070, elfPath=/app0/eboot.bin, state=1(RUNNING), crsh=0, excRisd=0, cdmp=0, susp0,0]
+00:10:04	[appId=0x60000807, titleId=NPXS21019, fcs=0,0, addProcRightTid=0xffffffff(NULL), addProcFbd=0(0xffffffff, NULL), extSpn=0, cSdkVersion=0, isN=0, lockedBy=0xffffffff,
+00:10:04	0xffffffff]
+00:10:04		[pid=0x32, appLocalPid=0x10807080, elfPath=/app0/eboot.bin, state=1(RUNNING), crsh=0, excRisd=0, cdmp=0, susp0,0]
+00:10:04	[appId=0x60000908, titleId=NPXS21007, fcs=0,0, addProcRightTid=0xffffffff(NULL), addProcFbd=0(0xffffffff, NULL), extSpn=0, cSdkVersion=0, isN=0, lockedBy=0xffffffff,
+00:10:04	0xffffffff]
+00:10:04		[pid=0x33, appLocalPid=0x10908090, elfPath=/app0/eboot.bin, state=1(RUNNING), crsh=0, excRisd=0, cdmp=0, susp0,0]
+00:10:04	-------App List Dump End------
+00:10:04	-------Syscore Event Dump Start------
+00:10:04	-------Syscore Event Dump End------
+00:10:06	[Syscore App] Add event : pid=0x4b
+00:10:06	[AppMgr Trace]: New Process, pid=0x4b, created.
+00:10:06	[AppMgr Trace]: New App, appId=0x60000f09, created
+00:10:06	[Syscore App]  ExpandCpuSetMode : disable
+00:10:06	[Syscore App]TRACE : W:\Build\J02277569\sys\internal\syscore\app\app_syscore_event.cpp 1013 setResult()
+00:10:06	[VCS]checkFocusStatus() [LNC->VCS] Focus Change. appType = 5(BIG_APP). appId = 0x60000f09.
+00:10:06	[UIProcess] malloc stats freeSize:40785728 (97%) inuseSize:1157312 peakSize:2700480 [pid:0x38]
+00:10:06	00:09:35.271435 gls_sns_proxy_factory.cpp                Create                          [0x18946](  57) I: FakeProxy type local Created
+00:10:06	* registerDevice:L1621 not found sub device id.
+00:10:06	ScePsP[TID:0x188a0]: sceMbusEvent has been received. (eventId=1 ADD, deviceId=0x6030d)
+00:10:06	#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_ADDED [DeviceId:0x6030d][type:1][subType:2]
+00:10:06	D/125878 X
+00:10:06	ScePsP[TID:0x188a0]: Open Pad [0x000000000006030d, 0, 0]: ret=0x030a0301
+00:10:06	ScePsP[TID:0x188a0]: ConnectedDeviceStatus: count=2
+00:10:06	  [c][DeviceId          ][UserId    ][Model     ]
+00:10:06	  [o][0x000000000006030d][0xffffffff][DUALSHOCK4]
+00:10:06	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:10:06	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:10:06	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:10:06	#LOGIN MGR# SetDisableVibration( 0x000000000006030d, 1 )
+00:10:06	#LOGIN MGR# sceSystemStateMgrSendCecOneTouchPlayCommand : 0(0x00000000)
+00:10:06	#LOGIN MGR# isIduMode = 0
+00:10:06	#LOGIN MGR# getControllerNum() : 1
+00:10:06	#LOGIN MGR# [RunBusTransitionNewDevice] ret : -2135556047 / deviceUniqueId : 0x400000000006030d
+00:10:06	DeviceManager::DeviceAutoAssignForDebug()
+00:10:06	[AutoAsign] DeviceId    : 0x6030d
+00:10:06	[AutoAsign] Type        : 1
+00:10:06	[AutoAsign] Subtype     : 2
+00:10:06	[AutoAsign] DeviceType2 : 0x00000000
+00:10:06	#LOGIN MGR# [Assign] DeviceId:0x000000000006030d / UserId:0x13e30997
+00:10:06	#LOGIN MGR# [Controller::onHoldDevice] userId = 0x13e30997 / holdAudioOutDeivice : 0
+00:10:06	#LOGIN MGR# [AudioDeviceStateChange] updState : 0 / functionType : 1 / scrachData : 128
+00:10:06	#LOGIN MGR# [AudioDeviceStateChange] function : 0 / isEnabled : 0 / realState : 0
+00:10:06	#LOGIN MGR# [AudioDeviceStateChange] updState : 0 / functionType : 2 / scrachData : 64
+00:10:06	#LOGIN MGR# [AudioDeviceStateChange] function : 0 / isEnabled : 175 / realState : -122703953
+00:10:06	@ connectDeviceByFunction:L1258
+00:10:06	@ checkAudioOutHandleStatus:L2487
+00:10:06	#LOGIN MGR# sceMbusBindDeviceWithUserId( 0x000000000006030d, 0x13e30997 ) : 0(0x00000000)
+00:10:06	#LOGIN MGR# SetDisableVibration( 0x000000000006030d, 0 )
+00:10:06	#LOGIN MGR# EnablePadKeyRemapping start( 1, 0x6030d, 0x13e30997, 1 )
+00:10:06	#LOGIN MGR# IsKeyRemapEnable start( 0x13e30997 )
+00:10:06	#LOGIN MGR# IsKeyRemapEnable end( 0x13e30997 ) -> 0
+00:10:06	#LOGIN MGR# EnablePadKeyRemapping end( 1, 0x6030d, 0x13e30997, 1 ) -> 0(0x00000000)
+00:10:06	#LOGIN MGR# : \login_mgr.cpp(402) : NotifyDeviceAdd : OnDeviceAdded event send.
+00:10:06	Event OnControllerActivated isAutoAssignComplete:1, m_systemState:1000, isSendEvent:1
+00:10:06	#LOGIN MGR# [DeviceQueueMgr::Dequeue(new)] deviceId : 0x000000000006030d / isForce : 0
+00:10:06	ScePsP[TID:0x188a0]: sceMbusEvent has been received. (eventId=16 OWNERCHG, deviceId=0x6030d)
+00:10:06	ScePsP[TID:0x188a0]: ConnectedDeviceStatus: count=2
+00:10:06	  [c][DeviceId          ][UserId    ][Model     ]
+00:10:06	  [o][0x000000000006030d][0x13e30997][DUALSHOCK4]
+00:10:06	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:10:06	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:10:06	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:10:06	[LoginMgr] OnLoginMgrDequeueEvent - data : Sce.PlayStation.Orbis.Framework.PsmEventData
+00:10:06	[LoginMgr:EventQueue] Dequeue - param : {"EventType":3,"deviceId":393997,"isForce":false}
+00:10:06	[LoginMgr:Queue] Dequeue - queueType : Level2 / eventType : QueueEventTypeSelectUser / eventJson : {"EventType":3,"deviceId":393997,"isForce":false} / isForce : Fals
+00:10:06	e
+00:10:06	#LOGIN MGR# [IsNeedControllerLightCalibration] isNeed : 0 / type : 0
+00:10:06	#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_OWNER_CHANGED [DeviceId:0x6030d][UserId:0x13e30997]
+00:10:06	#LOGIN MGR# [OnDeviceOwnerChanged] deviceId : 0x6030d / userId : 0x13e30997
+00:10:06	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:10:06	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:10:06	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:10:06	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:10:06	[AppDb] openDb()[1026]: [File:Open] openDb() call dbutil::Connection::Open() path[/R6M7qXkXY8/priv/mms/app.db] flags[0x10000002] result[0x0, 0]
+00:10:06	[AppDb] AppInfoDbInitializeDaemon()[54]: [File:Open] AppInfoDbInitializeDaemon() call DbAccessor::Init() path[/R6M7qXkXY8/priv/mms/app.db] result[0x0, 0].
+00:10:06	[SceSystemStateMgr] Power Mode Change: FULL_GAME
+00:10:06	[AppDb] AppInfoDbTerminateDaemon()[67]: [File:Close] AppInfoDbTerminateDaemon() call DbAccessor::Terminate().
+00:10:06	[AppDb] Terminate()[764]: [File:Close] DbAccessor::Terminate() call dbutil::Connection::Close().
+00:10:06	[SL] AppFocusChanged [NPXS20001] -> [CUSA15717]
+00:10:06	[SceSystemStateMgr] CPU  HLT CP SE CU ACLK DCLK ECLK LCLK SCLK SAMCLK VCLK DispCLK NCLK MemCLK MemP GMC DPM VDD      VDDNB    SOC
+00:10:06	[SceSystemStateMgr] 1600   0 NA  0 18  800  609  609  800  800    711  711     673 1400   1375   NA  NA   3 040/1131 040/1131 00710f13
+00:10:07	[System] : SCE_KERNEL_EXTENDED_DMEM_BASE_128 was ignored
+00:10:07	<118>[avs] lock 0:4
+00:10:07	[SceShellUI] I/PSM.UI : [FirstClear] : ClearFrameBuffer=False
+00:10:07	<118>[avs] lock 4:0
+00:10:07	**** Base Mode ****
+00:10:08	00:09:37.100145 gls_ipc_server.cpp                       onNewClient                     [0x1895a]( 393) I: New Client pid=0x31
+00:10:08	00:09:37.100857 gls_ipc_server.cpp                       _initializeInternal             [0x1895a]( 724) I: ### Create Broadcaster ContextID:0x5
+00:10:08	00:09:37.101336 gls_ipc_server.cpp                       onSessionKilled                 [0x1895a]( 372) I: Client left. pid=0x31
+00:10:08	#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_VIDEO_OUT_EVENT eventType=0x1
+00:10:08	#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_VIDEO_OUT_EVENT
+00:10:08	#LOGIN MGR# [IsPuConnectHdmi] start checkDeviceId : 0x7000
+00:10:08	#LOGIN MGR# [IsPuConnectHdmi] sceAvSettingGetDeviceInfo -> 0(0x00000000)
+00:10:08	#LOGIN MGR# [IsPuConnectHdmi] videoOutCapability = 0x1
+00:10:08	#LOGIN MGR# [IsPuConnectHdmi] end checkDeviceId : 0x7000 -> isReady = 0
+00:10:08	#LOGIN MGR# [NotifyMorpheusConnectStatusChangedForHmuSetupDialog] deviceId : 0xffffffffffffffff / userId : 0xffffffff / avSettingPuType : 0 / connectStatus : 6
+00:10:08	#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_VIDEO_OUT_EVENT eventType=0x1
+00:10:08	#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_VIDEO_OUT_EVENT
+00:10:08	#LOGIN MGR# [IsPuConnectHdmi] start checkDeviceId : 0x7000
+00:10:08	#LOGIN MGR# [IsPuConnectHdmi] sceAvSettingGetDeviceInfo -> 0(0x00000000)
+00:10:08	#LOGIN MGR# [IsPuConnectHdmi] videoOutCapability = 0x1
+00:10:08	#LOGIN MGR# [IsPuConnectHdmi] end checkDeviceId : 0x7000 -> isReady = 0
+00:10:08	#LOGIN MGR# [NotifyMorpheusConnectStatusChangedForHmuSetupDialog] deviceId : 0xffffffffffffffff / userId : 0xffffffff / avSettingPuType : 0 / connectStatus : 6
+00:10:08	<118>[avs] no need to change 0,9,969448947786
+00:10:09	[SceShellCore] Remote Play will start soon.
+00:10:09	[SceSystemStateMgr] Power Mode Change: FULL_GAME
+00:10:09	[SceSystemStateMgr] CPU  HLT CP SE CU ACLK DCLK ECLK LCLK SCLK SAMCLK VCLK DispCLK NCLK MemCLK MemP GMC DPM VDD      VDDNB    SOC
+00:10:09	[SceSystemStateMgr] 1600   0 NA  0 18  800  609  609  800  800    711  711     673 1400   1375   NA  NA   3 040/1131 040/1131 00710f13
+00:10:09	[libSceSaveData] api_id: init, titleId=CUSA15717, installDir=, compiledSdkVer=0x06008001
+00:10:09	[SceLncService] launchApp(NPXS22010)
+00:10:09	[SceLncService] category={gdg} VRMode={0,0}
+00:10:09	[SceLncService] hnm,psnf,pc,tk,ns={0,0,1,0,0} appBootMode={-1}
+00:10:09	[SceLncService] appType={SCE_LNC_APP_TYPE_CDLG} [] appVer={00.00}
+00:10:09	[SceLncService] Num. of logged-in users is 1
+00:10:09	[SceLncService] PrepareProcessLaunchCheck()
+00:10:09	[SceLncService] PrepareProcessLaunchCheck() returned
+00:10:09	[SceLncService] PrepareProcessLaunchDebugger()
+00:10:09	[SceLncService] PrepareProcessLaunchDebugger() returned
+00:10:09	[SceLncService] spawnApp
+00:10:09	[Syscore App] createApp NPXS22010
+00:10:09	[Syscore App] processSpawn(pid, 0x6000100a, 0x1100a130, appParam, processParam, 0, 0, 1, param, debug, 0)
+00:10:09	[Syscore App] appParam: appType = 0x6, rootPath = /mnt/sandbox/NPXS22010_000, titleId = NPXS22010
+00:10:09	[Syscore App] processParam: elfPath = /app0/eboot.bin, fullPath = /system/vsh/app/NPXS22010/eboot.bin
+00:10:09	[Syscore App] new pid=0x4c[Syscore App] attributeExe= 0
+00:10:09	[Syscore App] Ready to exec
+00:10:09	[Syscore App] wait for NOTE_EXIT|NOTE_EXEC
+00:10:09	[Syscore App] Add event : pid=0x4c
+00:10:09	[AppMgr Trace]: New Process, pid=0x4c, created.
+00:10:09	[AppMgr Trace]: New App, appId=0x6000100a, created
+00:10:09	[Syscore App]  ExpandCpuSetMode : disable
+00:10:10	#PROFILE CACHE#: \profile_cache_server_event.cpp(38) : onNewClient :
+00:10:10	[PSM] PsmFramework::Initialize
+00:10:10	PSM:6a5678981dd6c75078098f7ae7e62daba83af2e8
+00:10:10	MonoVM:a03bba966ac071548be58ee12f3d390a53a8bc7d
+00:10:10	PSS Platform:bb07c2fae9327744738c5be128764a9e10018610
+00:10:10	BootParam :1
+00:10:10	[PSM] set assembly path for mono
+00:10:10	[PSM] Loading Json
+00:10:10	[PSM] Loading PsmUtil
+00:10:10	[PSM] Loading Mono
+00:10:10	[PSM] LoadModulesInBG 0 msec
+00:10:10	[PSM] Loading SysCore
+00:10:10	[PSM] Loading libSceDipsw
+00:10:10	[PSM] Loading SystemService
+00:10:10	[PSM] Loading AudioOut
+00:10:10	[PSM] Loading Camera
+00:10:10	[PSM] ScePsmMonoSgenSetThreadType() thread_type = ::ORBIS
+00:10:10	[PSM] debugger off
+00:10:10	[PSM] Loading VideoCoreServerInterface
+00:10:10	[PSM] AOT mode
+00:10:10	[PSM] AOT mode
+00:10:10	mount ---
+00:10:10	Failed to create filesystem from /app0/psm/Temp
+00:10:10	Failed to create filesystem from /app0/psm/Documents
+00:10:10	Failed to create filesystem from /app0/psm/System
+00:10:10	counters not enabled
+00:10:10	counters not enabled
+00:10:10	Failed to create filesystem from /hostapp/dll
+00:10:10	[PSM] Loading Audiodec
+00:10:10	[VCS]onNewClient() [APP->VCS] clientPid = 0x4c, applicationId = 0x6000100a, sprxType = 0.
+00:10:10	[PSM] Loading WebKit
+00:10:10	[PSM Mem] Allocated 12582912 bytes for Resource Heap
+00:10:10	Initializing PSM Graphics for PGraphics
+00:10:10	[mbus] onNewClient. clientNum 9 over 8
+00:10:10	[AudioOut] sceAudioOutOpen() with restricted flag:pid=0x4c ch=7
+00:10:10	[AudioOut] sceAudioOutOpen() with restricted flag:pid=0x4c ch=8
+00:10:10	ScePsP[TID:0x18cad]: Open Pad [0x000000000006030d, 0, 0]: ret=0x030b0500
+00:10:10	ScePsP[TID:0x18cad]: Open Pad [0x000000000002030e, 16, 0]: ret=0x030c0501
+00:10:10	ScePsP[TID:0x18cad]: ConnectedDeviceStatus: count=2
+00:10:10	  [c][DeviceId          ][UserId    ][Model     ]
+00:10:10	  [o][0x000000000006030d][0x13e30997][DUALSHOCK4]
+00:10:10	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:10:10	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:10:10	  [ ][0xffffffffffffffff][0xffffffff][none      ]
+00:10:10	[ScePsmUtil] sceImeClientInitialize
+00:10:10	[ScePsmUtil] sce::tts::InitializeCsharp()
+00:10:10	[ScePsmUtil] sce::pss::orbis::video::InitializeCsharp()
+00:10:10	[PSM] PsmFramework::Initailize() 261 msec. elapsed
+00:10:10	Register libGlsSharedMediaNativaCall PInvokes
+00:10:11	[SceShellUI] I/PSM.UI : [NoDraw] : ClearFrameBuffer=False
+00:10:11	[SceShellUI] I/PSM.UI : [FirstClear] : ClearFrameBuffer=False
+00:10:11	<FILE SYSTEM CLIENT> Initializing File system client with 10.41.3.22:9673
+00:10:11	[NDArchive  ]: Opening 'autotest.dat'. 1777 files found
+00:10:11	[NDArchive  ]: Opening 'dbgassets.dat'. 7 files found
+00:10:11	[NDArchive  ]: Opening 'common.dat'. 8609 files found
+00:10:12	
+00:10:12	[Core]Archive is missing : worlds\worldcommon\worldcommon.dat
+00:10:12	
+00:10:12	[Core]Archive is missing : worlds\worldcommon\worldcommon_%lang%.dat
+00:10:12	
+00:10:12	[Core]Archive is missing : worlds\worldcommon\worldcommon_%lang%_feminine.dat
+00:10:12	[NDArchive  ]: Opening 'gnm/shadersobj.dat'. 12541 files found
+00:10:12	[mbus] onNewClient. clientNum 10 over 8
+00:10:12	You are use testing SKU : Development configuration of region.Playgo support
+00:10:12	Playgo-chunks.xml file not found, disabling install package native part!
+00:10:12	[NDArchive  ]: Opening 'worlds\installpkg.dat'. 215982 files found
+00:10:13	[SceCdlgApp] I/PSM.UI : UISystem timer started!! 00:00:00.0000572
+00:10:13	[SceCdlgApp] I/PSM.UI : UI RenderingSettings Resolution: Pixels2K[1920,1080]
+00:10:13	[SceCdlgApp] I/PSM.UI : OnAccessibilitySettingsChanged
+00:10:13	[SceCdlgApp] I/PSM.UI : TimerLog: diff [40.99]msec / process time [3462]msec / GC[0] :  [UIInitialize] UISystem.InitializeTopMost
+00:10:13	[VPA] PAllocatorInitialize system(addr=1304600000, size=4194304) video=(addr=1389800000, size=41943040)
+00:10:13	[PGraphics] Create PGraphicsDevice v[1389800000 - 138c000000] s[1304600000 - 1304a00000]
+00:10:13	[PGraphics] Allocated compositor index 0
+00:10:13	Initialized PGraphicsDevice 8817bfd60
+00:10:13	[SceCdlgApp] I/PSM.UI : TimerLog: diff [99.23]msec / process time [3591]msec / GC[0] : => [UIInitialize] UISystem.InitializeGraphics:
+00:10:13	[SceCdlgApp] I/PSM.UI : Allocating Emojis at Initialize...
+00:10:13	[SceCdlgApp] I/PSM.UI : Allocating ShellUI Emojis...
+00:10:13	[SceCdlgApp] I/PSM.UI : Allocating Unicode Emojis from PNG...
+00:10:13	[SceCdlgApp] I/PSM.UI : Allocating Unicode Emojis from Atlas...
+00:10:13	[SceCdlgApp] I/PSM.UI : TimerLog: diff [56.23]msec / process time [3649]msec / GC[0] : => [UIInitialize] UISystem.PreloadSystemTexture
+00:10:13	[SceCdlgApp] I/PSM.UI : SystemSound::Initialize()
+00:10:13	[SceCdlgApp] I/PSM.UI : VideoOutMode   : IsSystemDefault=True, IsVr=False, IsVrLegacy=False, IsVrNative=False
+00:10:13	[SceCdlgApp] I/PSM.UI : VideoOutStatus : [1920 1080] : freq 59.94
+00:10:13	[SceCdlgApp] I/PSM.UI : TimerLog: diff [184.92]msec / process time [3658]msec / GC[0] :  [UIInitialize] UISystem.InitializeBeforeRendering
+00:10:13	[SceCdlgApp] W/PSM.UI : **** WARNING: Shown called without Alive status : TransitionScene
+00:10:13	[SceCdlgApp] I/PSM.UI : SoundScriptManager initialized
+00:10:13	[SceCdlgApp] W/PSM.UI : ** NOTICE: LoadSync : BlankScene : Scene
+00:10:13	[SceCdlgApp] W/PSM.UI : ** NOTICE: LoadSync : TransitionScene : TransitionScene
+00:10:13	[SceCdlgApp] W/PSM.UI : Invalid widget type! _Count
+00:10:13	[SceCdlgApp] W/PSM.UI : ** NOTICE: LoadSync : Sce.Cdlg.Framework.Plugin : Plugin
+00:10:13	[SceCdlgApp] W/PSM.UI : !!!! WARNING !!!! /Application/resource/Sce.Cdlg.Framework.rco is loaded in main thread.
+00:10:13	GetLocaleElement() failed in SetLocale
+00:10:13	[SceCdlgApp] W/PSM.UI : cxml://CdlgFrameworkPlugin/tex_cdlg_bg is going to be loaded on main thread.
+00:10:13	[SceCdlgApp] W/PSM.UI : !!!! WARNING !!!! cxml://CdlgFrameworkPlugin/tex_cdlg_bg is loaded in main thread.
+00:10:13	[SceCdlgApp] W/PSM.UI : !!!! WARNING !!!! cxml://CdlgFrameworkPlugin/layout_cdlg_root is loaded in main thread.
+00:10:13	[SceCdlgApp] W/PSM.UI : !!!! WARNING !!!! cxml://CdlgFrameworkPlugin/layout_cdlg_bg is loaded in main thread.
+00:10:13	[SceCdlgApp] W/PSM.UI : WARNING : Scene LayoutBuild : [8.47msec/1widgets] : Sce.Cdlg.Framework.Plugin : Plugin
+00:10:13	[SceCdlgApp] I/PSM.UI : SceneQ : Loaded[0.78msec] Layout[0.00msec/0widgets] : Noname : ContainerScene
+00:10:13	[SceCdlg] setSuspend
+00:10:13	[SceLncService] suspendApp() appId={0x6000100a}, causeCode={0x0000000d}
+00:10:13	[SceLncService] lockSuspendBlock(0x6000100a)
+00:10:13	[SceLncService] lockSuspendBlock: appId={0x6000100a}
+00:10:13	[SceLncService] sceApplicationSuspend(0x6000100a)
+00:10:13	[Syscore App] Suspend App : 0x6000100a NPXS22010
+00:10:13	[Syscore App] Suspend process : 0x4c
+00:10:13	[Syscore App] Suspend process : 0x4c => 0
+00:10:13	[AppMgr Trace]: AppId=0x6000100a suspended
+00:10:13	[Syscore App] Suspend App : 0x6000100a NPXS22010 => SCE_OK
+00:10:13	[Syscore App]  ExpandCpuSetMode : disable
+00:10:13	[SceLncService] sceApplicationSuspend(0x6000100a) returned
+00:10:13	MSG AutoMounter(int32_t AppIdManager::getPidWithIndex(SceApplicationId, int, pid_t *) 174):
+00:10:13		appId(0x6000100a) with index(0) is not registered.
+00:10:13	MSG AutoMounter(int32_t AutoMount::UsbMass::fakeEjection(SceApplicationId) 716):
+00:10:13		getPidWithIndex(0x6000100a, 0) returned 0x80f40002.
+00:10:13	[SceLncService] unlockSuspendBlock: appId={0x6000100a}
+00:10:13	[VCS]checkApplicationStatus() [LNC->VCS] App was Suspended. appId = 0x6000100a.
+00:10:16	
+00:10:16	[Game]PostDescriptionLoad - Invalid pool description
+00:10:17	[SceShellUI] I/PSM.UI : [NoDraw] : ClearFrameBuffer=False
+00:10:17	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:10:17	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:10:17	[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+00:10:17	[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+00:10:18	SpecialVersionType is set to "main"
+00:10:18	Metrix command ignored for invalid version.
+00:10:18	Metrix command ignored for invalid version.
+00:10:18	[Device3D] - Initialize GPU exception handler (monitor thread)...
+00:10:18	
+00:10:18	<118>[avs] no need to change 3,0,985765700075
+00:10:20	[SceRnpsAppMgr] PERIODIC_CHECK_INTERVAL_SEC={600}
+00:10:20	[SceRnpsAppMgr] CheckAllRnpsApps : trigger = 0, num_apps = 2
+00:10:21	Using Fire Version 2.6.36.6835 Profiling 1 Memory Tracking 1 Log 1 Assert 1 Remote Control 1
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'top_clothing_wetness_mask_amount' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_scale' not found
+00:10:21	
+00:10:21	[Engine][CPoseMaterialDefinition] materialParameterExposedName 'botm_clothing_wetness_mask_amount' not found
+00:10:22	[SL][16:53:43:733][Thread 0x0001887d][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2889216 (46%), in-use 3336704 (54%), peak 3785280 (61%), when 619
+00:10:22	 [sec]
+00:10:22	[SL][16:53:43:893][Thread 0x0001887d][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2889216 (46%), in-use 3336704 (54%), peak 3785280 (61%), when 619
+00:10:22	 [sec]
+00:10:24	[SceShellCore] VM Stats: RSS 911.3, kernel 296.2, wire count 390.6, swap out 0.0, page table CPU 2589/6144 GPU 269/2048
+00:10:24	[SceShellCore] FMEM   0.6/   4.6 NPXS20977 SceSysAvControl.elf
+00:10:24	[SceShellCore] FMEM   9.7/  76.2 NPXS20991 SceSysCore.elf
+00:10:24	[SceShellCore] FMEM   5.8/  55.7 NPXS20973 orbis_audiod.elf
+00:10:24	[SceShellCore] FMEM   3.0/  11.1 NPXS20976 GnmCompositor.elf
+00:10:24	[SceShellCore] FMEM  25.2/ 280.1 NPXS20000 SceShellCore
+00:10:24	[SceShellCore] FMEM   9.5/ 155.6 decid.elf
+00:10:24	[SceShellCore] FMEM 357.6/ 960.5 NPXS20001 SceShellUI
+00:10:24	[SceShellCore] FMEM   6.6/  12.0 NPXS21003 SceAvCapture
+00:10:24	[SceShellCore] FMEM   8.0/  23.2 NPXS21000 SceGameLiveStreaming
+00:10:24	[SceShellCore] FMEM   9.2/  22.9 NPXS21002 ScePartyDaemon
+00:10:24	[SceShellCore] FMEM   4.5/  25.4 NPXS21004 SceVideoCoreServer
+00:10:24	[SceShellCore] FMEM  22.2/  49.0 NPXS21006 SceRemotePlay
+00:10:24	[SceShellCore] FMEM   6.3/  17.3 NPXS21019 SceSocialScreenMgr
+00:10:24	[SceShellCore] FMEM   4.3/   8.6 NPXS21007 SceMusicCoreServer
+00:10:24	[SceShellCore] FMEM   2.2/   5.0 NPXS20967 fs_cleaner.elf
+00:10:24	[SceShellCore] FMEM   2.2/  10.2 NPXS20974 SceVdecProxy.elf
+00:10:24	[SceShellCore] FMEM   2.4/  10.2 NPXS20975 SceVencProxy.elf
+00:10:24	[SceShellCore] FMEM  57.1/ 337.4 NPXS20001 SecureUIProcess.self
+00:10:24	[SceShellCore] FMEM 169.6/ 593.0 NPXS20001 SecureWebProcess.self
+00:10:24	[SceShellCore] FMEM  81.0/ 358.7 NPXS20001 orbis-jsc-compiler.self
+00:10:24	[SceShellCore] FMEM 123.9/ 273.7 NPXS22010 SceCdlgApp
+00:10:26	[SceShellCore] Libc Heap Status: free 46%, in-use 3258.5 KB, trend +48.7 KB/min, peak 3696.6 KB, when 613 [sec]
+00:10:42	
+00:10:42	[Core]Archive is missing : worlds\worldcommon\worldcommon_english.dat
+00:10:42	[NDArchive  ]: Opening 'worlds\installpkg_english.dat'. 130517 files found
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7730028188031.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258259307.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7729901922806.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594935043184.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258348374.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258472296.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 36036380525417848.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7656657766681.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7730028188031.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7659887861313.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791069559.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258221161.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791069559.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7656657766681.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7655863303892.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 36036380525417848.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791069559.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7706057889888.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791069559.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258348374.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258303323.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 18021982015935864.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 18021982015935864.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 9015291853082662.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7736588622361.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258221161.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 9015263501422900.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258348374.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7817199567805.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594765996159.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 18021982015935864.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7656657766681.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791069559.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791098369.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791069559.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258303323.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258348374.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7659887839537.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791017973.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 18021982015935864.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 9015263501422900.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7729901922806.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7647648997731.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258348374.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791061623.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791069559.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 18021982015935864.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258259307.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594935043184.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258348374.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791069559.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258348374.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7730028188031.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 18021982015935864.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 36036380525417848.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 18021982015935864.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594935043184.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7730028188031.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258348374.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 18021982015935864.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791098369.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791080702.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7656657790052.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594765996159.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7656657766681.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258472296.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791088713.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 45043579780158840.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7662440666406.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7656657766681.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 18021982015935864.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258221161.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 45043579780158840.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791069559.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 18021982015935864.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791069559.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7656657799589.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 36036380525417848.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594765996159.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791069559.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791017973.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791032517.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258259307.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258348374.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791032517.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 18021982015935864.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791049992.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258348374.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 9015263501422900.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791025266.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791025266.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7647648997731.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7729901922806.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594935043184.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258348374.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7656657790052.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7730028188031.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 45043579780158840.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258221161.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7659887883786.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258259307.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594791098369.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7659887861313.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258472296.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594765996159.
+00:10:44	
+00:10:44	[Physics]Could not load physics material 7594258259307.
+00:10:44	Archetype synch load: ? (entityarchetypeslibrary\7668466601097.ark.fcb).
+00:10:44	Archetype synch load: ? (entityarchetypeslibrary\7668466619202.ark.fcb).
+00:10:44	Archetype synch load: ? (entityarchetypeslibrary\7599093741183.ark.fcb).
+00:10:44	Archetype synch load: ? (entityarchetypeslibrary\7599093688269.ark.fcb).
+00:10:45	dv_add_debugview CDebugViewInfluence 0 0
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921147116
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921147116.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921147116.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921147116
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921325327
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921325327.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921325327.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921325327
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921325327
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921325327.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921325327.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921325327
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921534515
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921534515.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921534515.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921534515
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312922040491
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312922040491.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312922040491.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312922040491
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921481255
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921481255.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921481255.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921481255
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312922064018
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312922064018.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312922064018.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312922064018
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921408061
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921408061.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921408061.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921408061
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921481255
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921481255.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921481255.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921481255
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921212704
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921212704.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921212704.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921212704
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921212704
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921212704.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921212704.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921212704
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921366725
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921366725.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921366725.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921366725
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312922084592
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312922084592.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312922084592.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312922084592
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921147116
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921147116.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921147116.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921147116
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921325327
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921325327.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921325327.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921325327
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921325327
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921325327.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921325327.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921325327
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921534515
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921534515.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921534515.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921534515
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312922040491
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312922040491.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312922040491.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312922040491
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921481255
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921481255.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921481255.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921481255
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312922064018
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312922064018.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312922064018.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312922064018
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921408061
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921408061.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921408061.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921408061
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921481255
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921481255.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921481255.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921481255
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921212704
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921212704.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921212704.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921212704
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921212704
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921212704.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921212704.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921212704
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921366725
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921366725.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921366725.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921366725
+00:11:00	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312922084592
+00:11:00	
+00:11:00	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312922084592.
+00:11:00	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312922084592.
+00:11:00	
+00:11:00	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312922084592
+00:11:01	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921212704
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921212704.
+00:11:01	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921212704.
+00:11:01	
+00:11:01	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921212704
+00:11:01	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921534515
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921534515.
+00:11:01	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921534515.
+00:11:01	
+00:11:01	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921534515
+00:11:01	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921408061
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921408061.
+00:11:01	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921408061.
+00:11:01	
+00:11:01	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921408061
+00:11:01	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921212704
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921212704.
+00:11:01	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921212704.
+00:11:01	
+00:11:01	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921212704
+00:11:01	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921534515
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921534515.
+00:11:01	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921534515.
+00:11:01	
+00:11:01	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921534515
+00:11:01	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921408061
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921408061.
+00:11:01	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921408061.
+00:11:01	
+00:11:01	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921408061
+00:11:01	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015312921325327
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921325327.
+00:11:01	Failed to recover nomad db object of type AIAbstractArchetype with id 9015312921325327.
+00:11:01	
+00:11:01	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015312921325327
+00:11:01	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015420162933195
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015420162933195.
+00:11:01	Failed to recover nomad db object of type AIAbstractArchetype with id 9015420162933195.
+00:11:01	
+00:11:01	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015420162933195
+00:11:01	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015420162933195
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015420162933195.
+00:11:01	Failed to recover nomad db object of type AIAbstractArchetype with id 9015420162933195.
+00:11:01	
+00:11:01	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015420162933195
+00:11:01	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015420163163148
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015420163163148.
+00:11:01	Failed to recover nomad db object of type AIAbstractArchetype with id 9015420163163148.
+00:11:01	
+00:11:01	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015420163163148
+00:11:01	Trying to recover a db library object of an unknown type : AIAbstractArchetype -> 9015420163163148
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type AIAbstractArchetype with id 9015420163163148.
+00:11:01	Failed to recover nomad db object of type AIAbstractArchetype with id 9015420163163148.
+00:11:01	
+00:11:01	[EngineServices]Cannot create a temp object for an invalid db library : AIAbstractArchetype -> 9015420163163148
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015285938742766
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015285938742766.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015285938742766.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015272780713769
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015272780713769.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015272780713769.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015272781458614
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015272781458614.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015272781458614.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015281480006158
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015281480006158.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015281480006158.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015285652152553
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015285652152553.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015285652152553.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015318026670476
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015318026670476.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015318026670476.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015319887087268
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015319887087268.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015319887087268.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015262194132644
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015262194132644.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015262194132644.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015272780713769
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015272780713769.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015272780713769.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015272781458614
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015272781458614.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015272781458614.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015281480006158
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015281480006158.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015281480006158.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015285652152553
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015285652152553.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015285652152553.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015318026670476
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015318026670476.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015318026670476.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015319887087268
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015319887087268.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015319887087268.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015262194190964
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015262194190964.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015262194190964.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015272780713769
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015272780713769.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015272780713769.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015272781458614
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015272781458614.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015272781458614.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015280544846029
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015280544846029.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015280544846029.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015281480006158
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015281480006158.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015281480006158.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015285652152553
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015285652152553.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015285652152553.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015318026670476
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015318026670476.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015318026670476.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015319887087268
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015319887087268.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015319887087268.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015225129661657
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015225129661657.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015225129661657.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015225129661657
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015225129661657.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015225129661657.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015225129661657
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015225129661657.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015225129661657.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015272781458614
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015272781458614.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015272781458614.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015273328240230
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015273328240230.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015273328240230.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015285938742766
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015285938742766.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015285938742766.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015272780713769
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015272780713769.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015272780713769.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015272781458614
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015272781458614.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015272781458614.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015285652152553
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015285652152553.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015285652152553.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015318026670476
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015318026670476.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015318026670476.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015319887087268
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015319887087268.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015319887087268.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015262194132644
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015262194132644.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015262194132644.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015272780713769
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015272780713769.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015272780713769.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015272781458614
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015272781458614.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015272781458614.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015285652152553
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015285652152553.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015285652152553.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015318026670476
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015318026670476.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015318026670476.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015319887087268
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015319887087268.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015319887087268.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015262194190964
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015262194190964.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015262194190964.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015272780713769
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015272780713769.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015272780713769.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015272781458614
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015272781458614.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015272781458614.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015285652152553
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015285652152553.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015285652152553.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015318026670476
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015318026670476.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015318026670476.
+00:11:01	Trying to recover a db library object of an unknown type : ModifierEntity -> 9015319887087268
+00:11:01	
+00:11:01	[EngineServices]Failed to recover nomad db object of type ModifierEntity with id 9015319887087268.
+00:11:01	Failed to recover nomad db object of type ModifierEntity with id 9015319887087268.
+00:11:01	Initializing FcxIteratron.
+00:11:01	
+00:11:01	[NomadCore]There is a conflict for the CRC 0x4EFF18DD between StringID:
+00:11:01	'ThermalDataService:ThermalProperties.Forest' and
+00:11:01	'vog-m--1592953584-2749450693-9015393310772068'
+00:11:01	
+00:11:01	The result of that is unpredictable but will probably crash.
+00:11:01	
+00:11:01	[NomadCore]There is a conflict for the CRC 0x4EFF18DD between StringID:
+00:11:01	'thermaldataservice:thermalproperties.forest' and
+00:11:01	'vog-m--1592953584-2749450693-9015393310772068'
+00:11:01	
+00:11:01	The result of that is unpredictable but will probably crash.
+00:11:01	activate_log OnlineLoggerLog
+00:11:01	0: [OnlineLogger] - 11:54:22.880 [0000000000] [GameFlow, INFO] Queued      CWaitDTestConnectionEventInfo [1], src:void CGame::RunGame() [virtual void CGameFlowManage
+00:11:01	r::HandleEvent(const CGameFlowEventInfo &, const ndChar *, CAsyncContext *)(420)]
+00:11:01	1: [OnlineLogger] - 11:54:22.882 [0000000000] [AsyncOp, INFO] Starting       CPersistentStorageCheckFilePresenceOp:2 [void CAsyncOperationManagerImpl::HandleStateIdl
+00:11:01	e(AsyncOperationTime, CAsyncOperationEntry &)(1313)]
+00:11:01	1: [OnlineLogger] - 11:54:22.944 [0000000000] [AsyncOp, WARNING] Performance    CPersistentStorageCheckFilePresenceOp:2 call to DoStart took 60.1 ms! [void CAsyncOpe
+00:11:01	rationManagerImpl::HandleStateIdle(AsyncOperationTime, CAsyncOperationEntry &)(1317)]
+00:11:01	1: [OnlineLogger] - 11:54:22.945 [0000000000] [AsyncOp, INFO] Starting       CServiceStartOperation:3 [void CAsyncOperationManagerImpl::HandleStateIdle(AsyncOperatio
+00:11:01	nTime, CAsyncOperationEntry &)(1313)]
+00:11:01	1: [OnlineLogger] - 11:54:22.946 [0000000000] [AsyncOp, INFO] Starting       CServiceStartOperation:4 in parallel with CServiceStartOperation:3 [void CAsyncOperation
+00:11:01	ManagerImpl::HandleStateIdle(AsyncOperationTime, CAsyncOperationEntry &)(1313)]
+00:11:01	1: [OnlineLogger] - 11:54:22.946 [0000000000] [AsyncOp, INFO] Scheduled      CServiceStartOperation:5 [timeout 60.0s] [void CAsyncOperationManagerImpl::HandleStateId
+00:11:01	le(AsyncOperationTime, CAsyncOperationEntry &)(1330)]
+00:11:01	1: [OnlineLogger] - 11:54:22.947 [0000000000] [AsyncOp, INFO] Scheduled      CServiceStartOperation:6 [timeout 60.0s] [void CAsyncOperationManagerImpl::HandleStateId
+00:11:01	le(AsyncOperationTime, CAsyncOperationEntry &)(1330)]
+00:11:01	1: [OnlineLogger] - 11:54:22.949 [0000000000] [AsyncOp, INFO] Scheduled      CServiceStartOperation:7 [timeout 60.0s] [void CAsyncOperationManagerImpl::HandleStateId
+00:11:01	le(AsyncOperationTime, CAsyncOperationEntry &)(1330)]
+00:11:01	1: [OnlineLogger] - 11:54:22.949 [0000000000] [AsyncOp, INFO] Scheduled      CServiceStartOperation:8 [timeout 60.0s] [void CAsyncOperationManagerImpl::HandleStateId
+00:11:01	le(AsyncOperationTime, CAsyncOperationEntry &)(1330)]
+00:11:01	1: [OnlineLogger] - 11:54:22.950 [0000000000] [AsyncOp, INFO] Scheduled      CServiceStartOperation:9 [timeout 60.0s] [void CAsyncOperationManagerImpl::HandleStateId
+00:11:01	le(AsyncOperationTime, CAsyncOperationEntry &)(1330)]
+00:11:01	1: [OnlineLogger] - 11:54:22.950 [0000000000] [AsyncOp, INFO] Scheduled      CServiceStartOperation:10 [timeout 60.0s] [void CAsyncOperationManagerImpl::HandleStateI
+00:11:01	dle(AsyncOperationTime, CAsyncOperationEntry &)(1330)]
+00:11:01	1: [OnlineLogger] - 11:54:22.951 [0000000000] [AsyncOp, INFO] Starting       CServiceStartOperation:11 in parallel with CServiceStartOperation:3, CServiceStartOperat
+00:11:01	ion:4 [void CAsyncOperationManagerImpl::HandleStateIdle(AsyncOperationTime, CAsyncOperationEntry &)(1313)]
+00:11:01	1: [OnlineLogger] - 11:54:22.952 [0000000000] [AsyncOp, INFO] Starting       CServiceStartOperation:12 in parallel with CServiceStartOperation:3, CServiceStartOperat
+00:11:01	ion:4, CServiceStartOperation:11 [void CAsyncOperationManagerImpl::HandleStateIdle(AsyncOperationTime, CAsyncOperationEntry &)(1313)]
+00:11:01	1: [OnlineLogger] - 11:54:22.953 [0000000000] [AsyncOp, INFO] Starting       CGameFlowOperation_CWaitDTestConnectionEventInfo:13 in parallel with CServiceStartOperat
+00:11:01	ion:3, CServiceStartOperation:4, CServiceStartOperation:11, CServiceStartOperation:12 [void CAsyncOperationManagerImpl::HandleStateIdle(AsyncOperationTime, CAsyncOpe
+00:11:01	rationEntry &)(1313)]
+00:11:01	1: [OnlineLogger] - 11:54:22.954 [0000000000] [AsyncOp, INFO] Completed      CPersistentStorageCheckFilePresenceOp:2 in 0.0/60.0s: SUCCESS [void CAsyncOperationManag
+00:11:01	erImpl::HandleStateCompleted(CAsyncOperationEntry &)(1433)]
+00:11:01	1: [OnlineLogger] - 11:54:22.955 [0000000000] [AsyncOp, WARNING] Callback associated to CPersistentStorageCheckFilePresenceOp:2 didn't clear the ReturnValue of type
+00:11:01	CPersistentStorageCheckFilePresenceReturnDataHolder [void CAsyncContextInternal::ValidateReturnValueCleared(const ndString &, ndBool)(167)]
+00:11:01	[SceLncUtil] blockAppSuspend: name={SceNpTrophy}, appId={0x60000100}, refCount={1}
+00:11:01	[SceLncUtil] unblockAppSuspend: name={SceNpTrophy}, appId={0x60000100}, refCount={0}
+00:11:01	2: [OnlineLogger] - 11:54:23.143 [0000000060] [AsyncOp, INFO] Starting       CGameFlowOperation_CWaitDTestConnectionEventInfo:13.CDTestOpWaitConnected:14 [void CAsyn
+00:11:01	cOperationManagerImpl::HandleStateIdle(AsyncOperationTime, CAsyncOperationEntry &)(1313)]
+00:11:01	2: [OnlineLogger] - 11:54:23.144 [0000000060] [AsyncOp, INFO] Completed      CServiceStartOperation:3 in 0.1/60.0s: SUCCESS [void CAsyncOperationManagerImpl::HandleS
+00:11:01	tateCompleted(CAsyncOperationEntry &)(1433)]
+00:11:01	2: [OnlineLogger] - 11:54:23.145 [0000000060] [AsyncOp, INFO] Completed      CServiceStartOperation:4 in 0.1/60.0s: SUCCESS [void CAsyncOperationManagerImpl::HandleS
+00:11:01	tateCompleted(CAsyncOperationEntry &)(1433)]
+00:11:01	2: [OnlineLogger] - 11:54:23.145 [0000000060] [AsyncOp, INFO] Completed      CServiceStartOperation:11 in 0.1/60.0s: SUCCESS [void CAsyncOperationManagerImpl::Handle
+00:11:01	StateCompleted(CAsyncOperationEntry &)(1433)]
+00:11:01	2: [OnlineLogger] - 11:54:23.146 [0000000060] [AsyncOp, INFO] Completed      CServiceStartOperation:12 in 0.1/60.0s: SUCCESS [void CAsyncOperationManagerImpl::Handle
+00:11:01	StateCompleted(CAsyncOperationEntry &)(1433)]
+00:11:01	3: [OnlineLogger] - 11:54:23.159 [0000000120] [AsyncOp, INFO] Starting       CServiceStartOperation:5 in parallel with CGameFlowOperation_CWaitDTestConnectionEventIn
+00:11:01	fo:13.CDTestOpWaitConnected:14 [void CAsyncOperationManagerImpl::HandleStateIdle(AsyncOperationTime, CAsyncOperationEntry &)(1313)]
+00:11:01	3: [OnlineLogger] - 11:54:23.162 [0000000120] [AsyncOp, INFO] Starting       CServiceStartOperation:6 in parallel with CServiceStartOperation:5, CGameFlowOperation_C
+00:11:01	WaitDTestConnectionEventInfo:13.CDTestOpWaitConnected:14 [void CAsyncOperationManagerImpl::HandleStateIdle(AsyncOperationTime, CAsyncOperationEntry &)(1313)]
+00:11:01	3: [OnlineLogger] - 11:54:23.165 [0000000120] [AsyncOp, WARNING] Performance    CServiceStartOperation:6 call to DoStart took 2.4 ms! [void CAsyncOperationManagerImp
+00:11:01	l::HandleStateIdle(AsyncOperationTime, CAsyncOperationEntry &)(1317)]
+00:11:01	4: [OnlineLogger] - 11:54:23.197 [0000000136] [AsyncOp, INFO] Completed      CServiceStartOperation:5 in 0.0/60.0s: SUCCESS [void CAsyncOperationManagerImpl::HandleS
+00:11:01	tateCompleted(CAsyncOperationEntry &)(1433)]
+00:11:01	4: [OnlineLogger] - 11:54:23.198 [0000000136] [AsyncOp, INFO] Completed      CServiceStartOperation:6 in 0.0/60.0s: SUCCESS [void CAsyncOperationManagerImpl::HandleS
+00:11:01	tateCompleted(CAsyncOperationEntry &)(1433)]
+00:11:01	5: [OnlineLogger] - 11:54:23.220 [0000000173] [AsyncOp, INFO] Starting       CServiceStartOperation:7 in parallel with CGameFlowOperation_CWaitDTestConnectionEventIn
+00:11:01	fo:13.CDTestOpWaitConnected:14 [void CAsyncOperationManagerImpl::HandleStateIdle(AsyncOperationTime, CAsyncOperationEntry &)(1313)]
+00:11:01	5: [OnlineLogger] - 11:54:23.221 [0000000173] [AsyncOp, INFO] Starting       CServiceStartOperation:8 in parallel with CServiceStartOperation:7, CGameFlowOperation_C
+00:11:01	WaitDTestConnectionEventInfo:13.CDTestOpWaitConnected:14 [void CAsyncOperationManagerImpl::HandleStateIdle(AsyncOperationTime, CAsyncOperationEntry &)(1313)]
+00:11:01	6: [OnlineLogger] - 11:54:23.234 [0000000204] [AsyncOp, INFO] Completed      CServiceStartOperation:7 in 0.0/60.0s: SUCCESS [void CAsyncOperationManagerImpl::HandleS
+00:11:01	tateCompleted(CAsyncOperationEntry &)(1433)]
+00:11:01	6: [OnlineLogger] - 11:54:23.235 [0000000204] [AsyncOp, INFO] Completed      CServiceStartOperation:8 in 0.0/60.0s: SUCCESS [void CAsyncOperationManagerImpl::HandleS
+00:11:01	tateCompleted(CAsyncOperationEntry &)(1433)]
+00:11:01	7: [OnlineLogger] - 11:54:23.257 [0000000218] [AsyncOp, INFO] Starting       CServiceStartOperation:9 in parallel with CGameFlowOperation_CWaitDTestConnectionEventIn
+00:11:01	fo:13.CDTestOpWaitConnected:14 [void CAsyncOperationManagerImpl::HandleStateIdle(AsyncOperationTime, CAsyncOperationEntry &)(1313)]
+00:11:01	7: [OnlineLogger] - 11:54:23.258 [0000000218] [AsyncOp, INFO] Starting       CServiceStartOperation:10 in parallel with CServiceStartOperation:9, CGameFlowOperation_
+00:11:01	CWaitDTestConnectionEventInfo:13.CDTestOpWaitConnected:14 [void CAsyncOperationManagerImpl::HandleStateIdle(AsyncOperationTime, CAsyncOperationEntry &)(1313)]
+00:11:02	[SceShellCore] Libc Heap Status: free 46%, in-use 3258.7 KB, trend +48.9 KB/min, peak 3696.6 KB, when 649 [sec]
+00:11:02	8: [OnlineLogger] - 11:54:23.382 [0000000241] [AsyncOp, INFO] Completed      CServiceStartOperation:9 in 0.0/60.0s: SUCCESS [void CAsyncOperationManagerImpl::HandleS
+00:11:02	tateCompleted(CAsyncOperationEntry &)(1433)]
+00:11:02	8: [OnlineLogger] - 11:54:23.383 [0000000241] [AsyncOp, INFO] Completed      CServiceStartOperation:10 in 0.0/60.0s: SUCCESS [void CAsyncOperationManagerImpl::Handle
+00:11:02	StateCompleted(CAsyncOperationEntry &)(1433)]
+00:11:25	[SceShellCore] VM Stats: RSS 911.5, kernel 298.7, wire count 393.4, swap out 0.0, page table CPU 2589/6144 GPU 269/2048
+00:11:25	[SceShellCore] FMEM   0.6/   4.6 NPXS20977 SceSysAvControl.elf
+00:11:25	[SceShellCore] FMEM   9.7/  76.2 NPXS20991 SceSysCore.elf
+00:11:25	[SceShellCore] FMEM   5.9/  55.8 NPXS20973 orbis_audiod.elf
+00:11:25	[SceShellCore] FMEM   3.0/  11.1 NPXS20976 GnmCompositor.elf
+00:11:25	[SceShellCore] FMEM  25.3/ 280.1 NPXS20000 SceShellCore
+00:11:25	[SceShellCore] FMEM   9.6/ 155.6 decid.elf
+00:11:25	[SceShellCore] FMEM 357.6/ 960.5 NPXS20001 SceShellUI
+00:11:25	[SceShellCore] FMEM   6.6/  12.0 NPXS21003 SceAvCapture
+00:11:25	[SceShellCore] FMEM   8.0/  23.2 NPXS21000 SceGameLiveStreaming
+00:11:25	[SceShellCore] FMEM   9.2/  22.9 NPXS21002 ScePartyDaemon
+00:11:25	[SceShellCore] FMEM   4.5/  25.4 NPXS21004 SceVideoCoreServer
+00:11:25	[SceShellCore] FMEM  22.2/  49.0 NPXS21006 SceRemotePlay
+00:11:25	[SceShellCore] FMEM   6.3/  17.3 NPXS21019 SceSocialScreenMgr
+00:11:25	[SceShellCore] FMEM   4.3/   8.6 NPXS21007 SceMusicCoreServer
+00:11:25	[SceShellCore] FMEM   2.2/   5.0 NPXS20967 fs_cleaner.elf
+00:11:25	[SceShellCore] FMEM   2.2/  10.2 NPXS20974 SceVdecProxy.elf
+00:11:25	[SceShellCore] FMEM   2.4/  10.2 NPXS20975 SceVencProxy.elf
+00:11:25	[SceShellCore] FMEM  57.1/ 337.4 NPXS20001 SecureUIProcess.self
+00:11:25	[SceShellCore] FMEM 169.6/ 593.0 NPXS20001 SecureWebProcess.self
+00:11:25	[SceShellCore] FMEM  81.0/ 358.7 NPXS20001 orbis-jsc-compiler.self
+00:11:25	[SceShellCore] FMEM 123.9/ 273.7 NPXS22010 SceCdlgApp
+00:11:26	[SceShellUI] I/PSM.UI : UI system timer elapsed 00:11:00
